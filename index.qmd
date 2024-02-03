@@ -1,7 +1,35 @@
 ---
-title: "niksirbi.github.io"
+title: "Niko Sirmpilatze"
+image: img/headshot.jpg
+toc: false
+about: 
+    template: trestles
+    image-shape: round
+    image-width: 15em
+    links:
+    - text: GitHub
+      href: https://github.com/samanthacsik
+      icon: github
+    - text: Mastodon
+      href: https://neuromatch.social/@niksirbi
+      icon: mastodon
+    - text: Email
+      href: mailto:niko.sirbiladze@gmail.com
+      icon: envelope
 ---
 
-This is a Quarto website.
+**Thanks for stopping by my little corner of the internet!**
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm a medical doctor turned neuroscientist and software engineer.
+I care about promoting open, collaborative, and reproducible science.
+When not at the computer, you will find me dancing to swing music
+and failing to play woodwind instruments.
+
+### Experience
+
+**Oct 2022 - present: Research Software Engineer**
+
+- [Neuroinformatics Unit](https://neuroinformatics.dev/)
+- [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/)
+- [Gatsby Computational Neuroscience Unit](https://www.ucl.ac.uk/gatsby/)
+- [University College London](https://www.ucl.ac.uk/)
