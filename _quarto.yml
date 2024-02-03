@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "niksirbi.github.io"
+  title: "Niko Sirmpilatze"
   navbar:
     left:
       - href: index.qmd
@@ -11,9 +11,12 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: Flatly
+      dark: Darkly
     css: styles.css
     toc: true
+    page-layout: full
 
 
 
