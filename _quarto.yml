@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Niko Sirmpilatze"
+  favicon: static/img/favicon-32.png
   navbar:
     left:
       - href: index.qmd

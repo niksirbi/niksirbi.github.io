@@ -1,6 +1,6 @@
 ---
 title: "Niko Sirmpilatze"
-image: img/headshot.jpg
+image: static/img/headshot.jpg
 toc: false
 about: 
     template: trestles
