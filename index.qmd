@@ -15,7 +15,7 @@ about:
       icon: mastodon
     - text: Email
       href: mailto:niko.sirbiladze@gmail.com
-      icon: envelope
+      icon: envelope-fill
 ---
 
 **Thanks for stopping by my little corner of the internet!**

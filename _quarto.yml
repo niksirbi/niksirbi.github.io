@@ -8,6 +8,11 @@ website:
     left:
       - href: index.qmd
         text: Home
+    right:
+      - icon: github
+        href: https://github.com/niksirbi
+      - icon: mastodon
+        href: https://neuromatch.social/@niksirbi
 
 format:
   html:
@@ -17,6 +22,3 @@ format:
     css: styles.css
     toc: true
     page-layout: full
-
-
-
