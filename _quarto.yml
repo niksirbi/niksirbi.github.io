@@ -17,9 +17,7 @@ website:
 
 format:
   html:
-    theme:
-      light: Flatly
-      dark: Darkly
+    theme: journal
     css: styles.css
     toc: true
     page-layout: full
