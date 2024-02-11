@@ -4,7 +4,11 @@ project:
 
 website:
   title: "Niko Sirmpilatze"
-  favicon: static/img/favicon-32.png
+  favicon: /static/img/favicon-32.png
+  open-graph: true
+  site-url: "https://niksirbi.github.io"
+  image: /static/img/headshot.jpg
+  description: "Niko Sirmpilatze's personal website"
   navbar:
     left:
       - href: index.qmd
