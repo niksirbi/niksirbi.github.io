@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: build
 
 website:
   title: "Niko Sirmpilatze"
@@ -27,3 +27,4 @@ format:
     toc: true
     page-layout: full
     mainfont: "Barlow"
+    monofont: "JetBrains Mono"
