@@ -1,4 +1,3 @@
-from typing import Literal, Optional
 import pyalex
 
 pyalex.config.email = "niko.sirbiladze@gmail.com"
@@ -7,7 +6,7 @@ pyalex.config.email = "niko.sirbiladze@gmail.com"
 my_id = "A5086452643"
 
 my_pubs = pyalex.Works().filter(
-    authorships = {"author": {"id": "A5086452643"}},
+    authorships = {"author": {"id": my_id}},
     type="article",
     ).get()
 
@@ -91,12 +90,15 @@ def remove_duplicate_pubs(
                 cleaned_pubs[idx] = pub
     return cleaned_pubs
 
-my_processed_pubs = process_pubs(my_pubs, exclude_keywords=["StandardRat", "Author Correction"])
-print(len(my_processed_pubs))
 
-for pub in my_processed_pubs:
-    print(pub["title"])
-    print(pub["source_name"])
-    print("num_authors:", pub["num_authors"])
-    print("my_position:", pub["my_position"])
-    print("---")
+if __name__ == "__main__":
+    my_processed_pubs = process_pubs(
+        my_pubs, exclude_keywords=["StandardRat", "Author Correction"]
+    )
+    print(len(my_processed_pubs))
+    for pub in my_processed_pubs:
+        print(pub["title"])
+        print(pub["source_name"])
+        print("num_authors:", pub["num_authors"])
+        print("my_position:", pub["my_position"])
+        print("---")
