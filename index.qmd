@@ -18,11 +18,14 @@ about:
       icon: envelope-fill
 ---
 
-**Thanks for stopping by my little corner of the internet!**
 
-I'm a medical doctor turned neuroscientist and software engineer.
+Thanks for stopping by my little corner of the internet!
+
+I'm a London-based **Neuroscientist, Research Software Engineer, and Dancer**,
+currently focusing on developing free Open Source tools for studying
+brains and behaviour.
 I care about promoting open, collaborative, and reproducible science.
-When not at the computer, you will find me dancing to swing music
+When not at the computer, you will find me dancing to jazz music
 and failing to play woodwind instruments.
 
 ### Experience
