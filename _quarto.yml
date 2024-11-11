@@ -21,7 +21,9 @@ website:
 
 format:
   html:
-    theme: journal
-    css: styles.css
+    theme:
+      light: [flatly, styles.scss]
+      dark: [darkly, styles-dark.scss]
     toc: true
     page-layout: full
+    mainfont: "Barlow"
