@@ -1,15 +1,12 @@
 /*-- scss:defaults --*/
 
-@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
-
-$font-family: "Barlow", sans-serif;
-$font-family-serif: "Barlow", sans-serif;
+@import 'fonts';
 
 $primary: #2c2c2c;
 
 /*-- scss:rules --*/
 
-kbd, .kbd{
+kbd, .kbd {
   background-color: #222222 !important;
 }
 
