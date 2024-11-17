@@ -21,18 +21,18 @@ about:
 
 Thanks for stopping by my little corner of the internet!
 
-I'm a London-based **Neuroscientist, Research Software Engineer, and Dancer**,
-currently focusing on developing free Open Source tools for studying
-brains and behaviour.
+I'm a London-based **Neuroscientist** and **Research Software Engineer**,
+currently focusing on developing free Open Source tools for studying brains
+and the behaviours they produce.
 I care about promoting open, collaborative, and reproducible science.
-When not at the computer, you will find me dancing to jazz music
+You'll often find me dancing to jazz music
 and failing to play woodwind instruments.
 
-### Experience
+### Current Role
 
-**Oct 2022 - present: Research Software Engineer**
+Senior Research Software Engineer
 
 - [Neuroinformatics Unit](https://neuroinformatics.dev/)
-- [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/)
+- [Sainsbury Wellcome Centre for Neural Circuits and Behaviour](https://www.sainsburywellcome.org/)
 - [Gatsby Computational Neuroscience Unit](https://www.ucl.ac.uk/gatsby/)
 - [University College London](https://www.ucl.ac.uk/)
