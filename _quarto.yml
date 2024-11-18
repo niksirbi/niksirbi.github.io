@@ -13,6 +13,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: projects/index.qmd
+        text: Projects
     right:
       - icon: github
         href: https://github.com/niksirbi

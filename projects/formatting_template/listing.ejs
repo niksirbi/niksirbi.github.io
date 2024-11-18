@@ -1,0 +1,41 @@
+```{=html}
+<div class="projects">
+    <% for (const project of items) { %>
+    <div class="project-entry">
+        <div class="logo">
+            <% if (project.logo) { %>
+                <% if (project.links && project.links.length > 0) { %>
+                    <a href="<%= project.links[0].url %>" target="_blank">
+                        <img src="<%= project.logo %>" alt="<%= project.title %>" title="<%= project.title %>" />
+                    </a>
+                <% } else { %>
+                    <img src="<%= project.logo %>" alt="<%= project.title %>" title="<%= project.title %>" />
+                <% } %>
+            <% } %>
+        </div>
+        <div class="body">
+            <p class="project-title">
+                <% if (project.links && project.links.length > 0) { %>
+                    <a href="<%= project.links[0].url %>" target="_blank"><%= project.title %></a>
+                <% } else { %>
+                    <%= project.title %>
+                <% } %>
+            </p>
+            <% if (project.roles && project.roles.length > 0) { %>
+                <p class="project-roles">
+                    Roles: <%= project.roles.join(', ') %>
+                </p>
+            <% } %>
+            <p class="project-description"><%= project.description %></p>
+            <% if (project.links && project.links.length > 0) { %>
+                <ul class="project-links">
+                    <% for (const link of project.links) { %>
+                        <li><a href="<%= link.url %>"><%= link.name %></a></li>
+                    <% } %>
+                </ul>
+            <% } %>
+        </div>
+    </div>
+    <% } %>
+</div>
+```

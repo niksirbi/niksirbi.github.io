@@ -1,0 +1,18 @@
+---
+title: "Projects"
+listing:
+  - id: software
+    contents: software.yml
+    sort: "date desc"
+    template: formatting_template/listing.ejs
+page-layout: full
+toc: true
+toc-location: right
+toc-title: Project type
+---
+
+
+## Software
+
+:::{#software}
+:::
