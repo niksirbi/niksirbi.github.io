@@ -21,12 +21,13 @@ about:
 
 Thanks for stopping by my little corner of the internet!
 
-I'm a London-based **Neuroscientist** and **Research Software Engineer**,
-currently focusing on developing free Open Source tools for studying brains
-and the behaviours they produce.
-I care about promoting open, collaborative, and reproducible science.
-You'll often find me dancing to jazz music
-and failing to play woodwind instruments.
+I'm a London-based **neuroscientist** and **research software engineer**
+dedicated to developing free, Open Source tools for studying brains and the
+behaviours they produce. My background in medicine and a PhD in neuroimaging have left me with a
+passion for neuroanatomy, and especially brain atlases.
+
+I am deeply committed to promoting open, collaborative, and reproducible
+science. I find joy in dancing to jazz music and in failing to play woodwind instruments.
 
 ### Current Role
 
