@@ -1,13 +1,6 @@
 - title: movement
   description: "Python tools for analysing body movements across space and time."
-  roles:
-    - Lead Developer
-    - Maintainer
-  links:
-    - name: Source Code
-      url: https://github.com/neuroinformatics-unit/movement
-    - name: Documentation
-      url: https://movement.neuroinformatics.dev
-  logo: logos/movement.png
+  image: logos/movement.png
+  categories: [Python, behaviour]
 
   

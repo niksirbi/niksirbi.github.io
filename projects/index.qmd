@@ -2,9 +2,10 @@
 title: "Projects"
 listing:
   - id: software
+    type: default
     contents: software.yml
     sort: "date desc"
-    template: formatting_template/listing.ejs
+    categories: true
 page-layout: full
 toc: true
 toc-location: right
