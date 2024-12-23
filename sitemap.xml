@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://niksirbi.github.io/index.html</loc>
-    <lastmod>2024-12-23T16:34:32.528Z</lastmod>
+    <lastmod>2024-12-23T16:51:02.098Z</lastmod>
+  </url>
+  <url>
+    <loc>https://niksirbi.github.io/blog/index.html</loc>
+    <lastmod>2024-12-23T16:51:02.098Z</lastmod>
   </url>
   <url>
     <loc>https://niksirbi.github.io/projects/index.html</loc>
-    <lastmod>2024-12-23T16:34:32.528Z</lastmod>
+    <lastmod>2024-12-23T16:51:02.098Z</lastmod>
   </url>
 </urlset>
