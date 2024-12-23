@@ -38,7 +38,7 @@ jobs:
 
       - name: Render Quarto Project
         run: |
-          quarto render index.qmd --to html
+          quarto render
 
       - name: Move fonts to build folder
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
