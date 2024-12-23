@@ -1,0 +1,8 @@
+- path: https://neuroinformatics.dev/blog/neuroblueprint.html
+  author: [Niko Sirmpilatze, Joe Ziminski]
+  date: 2024-05-02
+  image: images/neuroblueprint.png
+  title: Data organisation with NeuroBlueprint
+  description: "Addressing the challenge of unstandardised data in systems neuroscience."
+  categories: [Data management]
+

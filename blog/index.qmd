@@ -1,0 +1,11 @@
+---
+title: "Blogposts"
+listing:
+  - id: blogposts
+    type: default
+    contents: blogposts.yml
+    sort: "date desc"
+    categories: true
+    fields: [image, date, author, title, categories, description]
+page-layout: full
+---
