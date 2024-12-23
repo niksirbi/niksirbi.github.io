@@ -1,19 +1,11 @@
 ---
 title: "Projects"
 listing:
-  - id: software
-    type: default
-    contents: software.yml
+  - id: projects
+    type: grid
+    contents: projects.yml
     sort: "date desc"
     categories: true
+    fields: [image, title, categories, description]
 page-layout: full
-toc: true
-toc-location: right
-toc-title: Project type
 ---
-
-
-## Software
-
-:::{#software}
-:::
