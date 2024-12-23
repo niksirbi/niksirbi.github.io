@@ -1,9 +1,10 @@
 - path: https://movement.neuroinformatics.dev
   title: movement
   description: "Python tools for analysing body movements across space and time."
-  image: logos/movement.png
+  image: ../static/img/movement.png
   categories: [Python, Behaviour]
 - path: https://neuroblueprint.neuroinformatics.dev
+  title: NeuroBlueprint
   description: "Lightweight data specification for systems neuroscience, inspired by BIDS."
-  image: logos/neuroblueprint.png
+  image: ../static/img/neuroblueprint.png
   categories: [Data management]
