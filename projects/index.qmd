@@ -1,11 +1,35 @@
 ---
 title: "Projects"
 listing:
-  - id: projects
+  - id: active
     type: grid
-    contents: projects.yml
+    contents: active.yml
+    sort: "date desc"
+    categories: true
+    fields: [image, title, categories, description]
+  - id: past
+    type: grid
+    contents: past.yml
     sort: "date desc"
     categories: true
     fields: [image, title, categories, description]
 page-layout: full
+toc: true
+toc-location: right
+toc-title: Type
 ---
+
+A selection of projects I'm actively working on or have worked on in the past.
+Each entry links to the project's website or repository. All projects are Open Source
+and most of them are collaborative efforts.
+
+### Active
+
+
+:::{#active}
+:::
+
+### Past
+
+:::{#past}
+:::

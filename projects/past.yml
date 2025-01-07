@@ -1,0 +1,5 @@
+- path: https://github.com/niksirbi/pcarpet
+  title: pcarpet
+  description: "Create a carpet plot from fMRI data and decompose it with PCA"
+  image: ../static/img/pcarpet.png
+  categories: [Python, Neuroimaging]
