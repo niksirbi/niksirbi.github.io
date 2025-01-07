@@ -1,11 +1,22 @@
 ---
 title: "Blogposts"
 listing:
-  - id: blogposts
+  - id: professional
     type: default
-    contents: blogposts.yml
+    contents: professional.yml
     sort: "date desc"
     categories: true
     fields: [image, date, author, title, categories, description]
 page-layout: full
+toc: true
+toc-location: right
+toc-title: Type
 ---
+
+### Professional
+
+Posts I have (co-)authored in my professional capacity.
+Each entry links to an external website.
+
+:::{#professional}
+:::
