@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,8 +38,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-3a7a356a1f83954108e345b995e5b62d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-253d717fe8763734203f02401d586108.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d563b5279e8256f45a542a7b3d281efd.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-1ba7b37a7506f70259362fd0f70249b7.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-8610bf0f8174e088823ffb4e89c01377.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-projects .list');
+    const listingTargetEl = window.document.querySelector('#listing-active .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -87,7 +87,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
+    window['quarto-listings']['listing-active'] = new List('listing-active', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-past .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-image","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-past'] = new List('listing-past', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -132,6 +160,7 @@ window.Quarto = {
 </script>
 
 <meta property="og:title" content="Projects – Niko Sirmpilatze">
+<meta property="og:description" content="Niko Sirmpilatze’s personal website">
 <meta property="og:image" content="https://niksirbi.github.io/static/img/movement.png">
 <meta property="og:site_name" content="Niko Sirmpilatze">
 <meta property="og:image:height" content="641">
@@ -192,8 +221,15 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QmVoYXZpb3Vy">Behaviour <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMG1hbmFnZW1lbnQ=">Data management <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Type</h2>
+   
+  <ul>
+  <li><a href="#active" id="toc-active" class="nav-link active" data-scroll-target="#active">Active</a></li>
+  <li><a href="#past" id="toc-past" class="nav-link" data-scroll-target="#past">Past</a></li>
+  </ul>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QmVoYXZpb3Vy">Behaviour <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMG1hbmFnZW1lbnQ=">Data management <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmV1cm9hbmF0b215">Neuroanatomy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmV1cm9pbWFnaW5n">Neuroimaging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -216,11 +252,10 @@ window.Quarto = {
 </header>
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-projects">
+<p>A selection of projects I’m actively working on or have worked on in the past. Each entry links to the project’s website or repository. All projects are Open Source and most of them are collaborative efforts.</p>
+<section id="active" class="level3">
+<h3 class="anchored" data-anchor-id="active">Active</h3>
+<div id="listing-active" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="UHl0aG9uJTJDQmVoYXZpb3Vy">
 <a href="https://movement.neuroinformatics.dev" class="quarto-grid-link">
@@ -269,11 +304,77 @@ Lightweight data specification for systems neuroscience, inspired by BIDS.
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="2" data-categories="UHl0aG9uJTJDTmV1cm9hbmF0b215">
+<a href="https://github.com/brainglobe/brainglobe-template-builder" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../static/img/blackcap_atlas.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+brainglobe-template-builder
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">
+Python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TmV1cm9hbmF0b215'); return false;">
+Neuroanatomy
+</div>
+</div>
+<div class="card-text listing-description">
+Build unbiased anatomical templates from individual 3D brain images.
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="past" class="level3">
+<h3 class="anchored" data-anchor-id="past">Past</h3>
+<div id="listing-past" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UHl0aG9uJTJDTmV1cm9pbWFnaW5n">
+<a href="https://github.com/niksirbi/pcarpet" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../static/img/pcarpet.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+pcarpet
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">
+Python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TmV1cm9pbWFnaW5n'); return false;">
+Neuroimaging
+</div>
+</div>
+<div class="card-text listing-description">
+Create a carpet plot from fMRI data and decompose it with PCA
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

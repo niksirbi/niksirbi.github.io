@@ -11,13 +11,13 @@
     "href": "blog/index.html",
     "title": "Blogposts",
     "section": "",
-    "text": "Release v0.0.21 and next steps\n\n\n\n\n\n\nPython\n\n\nBehaviour\n\n\n\nThe inaugaural blogpost for movement, containing a summary of the v0.0.21 release and a preview of what’s coming next in 2025.\n\n\n\n\n\nDec 5, 2024\n\n\nNiko Sirmpilatze\n\n\n\n\n\n\n\n\n\n\n\n\nManaging neuroscience projects with datashuttle\n\n\n\n\n\n\nPython\n\n\nData management\n\n\n\nCreate, validate and transfer standardised project folders.\n\n\n\n\n\nMay 7, 2024\n\n\nJoe Ziminski, Niko Sirmpilatze\n\n\n\n\n\n\n\n\n\n\n\n\nData organisation with NeuroBlueprint\n\n\n\n\n\n\nData management\n\n\n\nAddressing the challenge of unstandardised data in systems neuroscience.\n\n\n\n\n\nMay 2, 2024\n\n\nNiko Sirmpilatze, Joe Ziminski\n\n\n\n\n\n\nNo matching items"
+    "text": "Professional\nPosts I have (co-)authored in my professional capacity. Each entry links to an external website.\n\n\n\n\n\n\n\n\n\n\nRelease v0.0.21 and next steps\n\n\n\n\n\n\nPython\n\n\nBehaviour\n\n\n\nThe inaugaural blogpost for movement, containing a summary of the v0.0.21 release and a preview of what’s coming next in 2025.\n\n\n\n\n\nDec 5, 2024\n\n\nNiko Sirmpilatze\n\n\n\n\n\n\n\n\n\n\n\n\nManaging neuroscience projects with datashuttle\n\n\n\n\n\n\nPython\n\n\nData management\n\n\n\nCreate, validate and transfer standardised project folders.\n\n\n\n\n\nMay 7, 2024\n\n\nJoe Ziminski, Niko Sirmpilatze\n\n\n\n\n\n\n\n\n\n\n\n\nData organisation with NeuroBlueprint\n\n\n\n\n\n\nData management\n\n\n\nAddressing the challenge of unstandardised data in systems neuroscience.\n\n\n\n\n\nMay 2, 2024\n\n\nNiko Sirmpilatze, Joe Ziminski\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "movement\n\n\n\nPython\n\n\nBehaviour\n\n\n\nPython tools for analysing body movements across space and time.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuroBlueprint\n\n\n\nData management\n\n\n\nLightweight data specification for systems neuroscience, inspired by BIDS.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "A selection of projects I’m actively working on or have worked on in the past. Each entry links to the project’s website or repository. All projects are Open Source and most of them are collaborative efforts.\n\nActive\n\n\n\n\n\n\n\n\n\n\nmovement\n\n\n\nPython\n\n\nBehaviour\n\n\n\nPython tools for analysing body movements across space and time.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuroBlueprint\n\n\n\nData management\n\n\n\nLightweight data specification for systems neuroscience, inspired by BIDS.\n\n\n\n\n\n\n\n\n\n\n\n\n\nbrainglobe-template-builder\n\n\n\nPython\n\n\nNeuroanatomy\n\n\n\nBuild unbiased anatomical templates from individual 3D brain images.\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nPast\n\n\n\n\n\n\n\n\n\n\npcarpet\n\n\n\nPython\n\n\nNeuroimaging\n\n\n\nCreate a carpet plot from fMRI data and decompose it with PCA\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
