@@ -8,3 +8,8 @@
   description: "Lightweight data specification for systems neuroscience, inspired by BIDS."
   image: ../static/img/neuroblueprint.png
   categories: [Data management]
+- path: https://github.com/brainglobe/brainglobe-template-builder
+  title: brainglobe-template-builder
+  description: "Build unbiased anatomical templates from individual 3D brain images."
+  image: ../static/img/blackcap_atlas.png
+  categories: [Python, Neuroanatomy]
