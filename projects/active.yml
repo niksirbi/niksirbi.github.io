@@ -2,14 +2,20 @@
   title: movement
   description: "Python tools for analysing body movements across space and time."
   image: ../static/img/movement.png
-  categories: [Python, Behaviour]
+  categories: [Software]
 - path: https://neuroblueprint.neuroinformatics.dev
   title: NeuroBlueprint
   description: "Lightweight data specification for systems neuroscience, inspired by BIDS."
   image: ../static/img/neuroblueprint.png
-  categories: [Data management]
+  categories: [Standards]
 - path: https://github.com/brainglobe/brainglobe-template-builder
   title: brainglobe-template-builder
   description: "Build unbiased anatomical templates from individual 3D brain images."
   image: ../static/img/blackcap_atlas.png
-  categories: [Python, Neuroanatomy]
+  categories: [Software]
+- path: https://github.com/afids/afids-macaca
+  title: afids-macaca
+  description: "Anatomical fiducials protocol adapted for macaques"
+  image: ../static/img/afids-macaca.png
+  categories: [Software, Standards]
+

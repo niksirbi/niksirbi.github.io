@@ -19,9 +19,11 @@ toc-location: right
 toc-title: Type
 ---
 
-A selection of projects I'm actively working on or have worked on in the past.
-Each entry links to the project's website or repository. All projects are Open Source
-and most of them are collaborative efforts.
+A selection of projects I'm currently working on or have contributed to in the past.
+Each entry links to the project's website or repository.
+
+Many of these are collaborative efforts, but I've chosen to highlight those
+where I played a key role in their launch or development.
 
 ### Active
 

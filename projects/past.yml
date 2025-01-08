@@ -2,4 +2,19 @@
   title: pcarpet
   description: "Create a carpet plot from fMRI data and decompose it with PCA"
   image: ../static/img/pcarpet.png
-  categories: [Python, Neuroimaging]
+  categories: [Software]
+- path: https://github.com/PRIME-RE/RheMAP
+  title: RheMAP
+  description: "Non-linear warps between common rhesus macaque brain templates"
+  image: ../static/img/rhemap.png
+  categories: [Software, Dataset]
+- path: https://prime-re.github.io/
+  title: PRIME-RE
+  description: "PRIMatE Resource Exchange: An open resource exchange platform for non-human primate neuroimaging"
+  image: ../static/img/prime-re.png
+  categories: [Community]
+- path: https://www.neurizons.uni-goettingen.de/
+  title: Neurizons
+  description: "A biennial conference organized by the students of the IMPRS for Neurosciences in Göttingen"
+  image: ../static/img/neurizons.jpg
+  categories: [Conference]
