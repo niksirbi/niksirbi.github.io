@@ -8,7 +8,7 @@ listing:
     categories: true
     fields: [image, title, categories, description]
   - id: past
-    type: grid
+    type: table
     contents: past.yml
     sort: "date desc"
     categories: true

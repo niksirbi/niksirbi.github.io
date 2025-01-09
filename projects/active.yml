@@ -11,15 +11,10 @@
 - path: https://github.com/brainglobe/brainglobe-template-builder
   title: brainglobe-template-builder
   description: "Build unbiased anatomical templates from individual 3D brain images."
-  image: ../static/img/blackcap_atlas.png
+  image: ../static/img/template-builder.png
   categories: [Software]
-- path: https://github.com/afids/afids-macaca
-  title: afids-macaca
-  description: "Anatomical fiducials protocol adapted for macaques."
-  image: ../static/img/afids-macaca.png
-  categories: [Software, Standards]
 - path: https://software-skills.neuroinformatics.dev/courses/video-analysis.html
-  title: "Video-based analysis of aninal behaviour"
+  title: "Video-based analysis of animal behaviour"
   description: "One-day workshop taught annually to neuroscience PhD students."
   image: ../static/img/behaviour-course.png
   categories: [Teaching]
@@ -28,6 +23,8 @@
   description: "Half-day workshop taught annually to neuroscience PhD students."
   image: ../static/img/hpc-course.png
   categories: [Teaching]
-
-
-
+- path: https://github.com/afids/afids-macaca
+  title: afids-macaca
+  description: "Anatomical fiducials protocol adapted for macaques."
+  image: ../static/img/afids-macaca.png
+  categories: [Software, Standards]
