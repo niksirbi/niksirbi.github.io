@@ -8,12 +8,10 @@ listing:
     categories: true
     fields: [image, date, author, title, categories, description]
 page-layout: full
-toc: true
+toc: false
 toc-location: right
 toc-title: Type
 ---
-
-### Professional
 
 Posts I have (co-)authored in my professional capacity.
 Each entry links to an external website.

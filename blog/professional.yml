@@ -4,14 +4,14 @@
   image: ../static/img/movement.png
   title: Release v0.0.21 and next steps
   description: "The inaugaural blogpost for `movement`, containing a summary of the v0.0.21 release and a preview of what's coming next in 2025."
-  categories: [Python, Behaviour]
+  categories: [Animal behaviour]
 - path: https://neuroinformatics.dev/blog/datashuttle.html
   author: [Joe Ziminski, Niko Sirmpilatze]
   date: 2024-05-07
   image: ../static/img/datashuttle.png
   title: Managing neuroscience projects with datashuttle
   description: "Create, validate and transfer standardised project folders."
-  categories: [Python, Data management]
+  categories: [Data management]
 - path: https://neuroinformatics.dev/blog/neuroblueprint.html
   author: [Niko Sirmpilatze, Joe Ziminski]
   date: 2024-05-02
