@@ -17,6 +17,8 @@ website:
         text: Projects
       - href: blog/index.qmd
         text: Blogposts
+      - href: publications/index.qmd
+        text: Publications
     right:
       - icon: github
         href: https://github.com/niksirbi

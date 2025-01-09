@@ -1,0 +1,24 @@
+---
+title: "Publications"
+listing:
+  - id: publications
+    type: table
+    contents: publications.yml
+    sort: "date desc"
+    categories: false
+    fields: [date, title, subtitle, author, description]
+    field-display-names:
+        subtitle: "Journal"
+        author: "Authors"
+        description: "Cited by"
+page-layout: full
+toc: false
+toc-location: right
+toc-title: Type
+---
+
+The following list is based on data retrieved from
+[OpenAlex](https://openalex.org/works?page=1&filter=authorships.author.id%3Aa5086452643).
+
+:::{#publications}
+:::
