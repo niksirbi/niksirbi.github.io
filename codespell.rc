@@ -1,4 +1,0 @@
-[codespell]
-skip = '.git'
-check-hidden = true
-ignore-regex = '.*# codespell-ignore$'

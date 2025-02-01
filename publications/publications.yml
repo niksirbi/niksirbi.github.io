@@ -10,7 +10,7 @@
   subtitle: Scientific Reports
   date: '2019-11-13'
   author: Nikoloz Sirmpilatze et al.
-  description: '39'
+  description: '40'
 - path: https://doi.org/10.1162/imag_a_00230
   title: An anesthetic protocol for preserving functional network structure in the
     marmoset monkey brain
@@ -29,7 +29,7 @@
     and Entorhinal Cortex'
   subtitle: bioRxiv
   date: '2024-03-12'
-  author: "Cl\xE9mentine Domin\xE9 et al."  # codespell:ignore
+  author: "Cl\xE9mentine Domin\xE9 et al."
   description: '0'
 - path: https://doi.org/10.1186/s40478-020-01105-2
   title: Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from
@@ -57,13 +57,13 @@
   subtitle: Neuron
   date: '2020-02-01'
   author: Michael P. Milham et al.
-  description: '114'
+  description: '115'
 - path: https://doi.org/10.1038/s41593-023-01286-8
   title: A consensus protocol for functional connectivity analysis in the rat brain
   subtitle: Nature Neuroscience
   date: '2023-03-27'
   author: Joanes Grandjean et al.
-  description: '53'
+  description: '57'
 - path: https://doi.org/10.1016/j.neuron.2021.10.015
   title: 'Toward next-generation primate neuroscience: A collaboration-based strategic
     plan for integrative neuroimaging'
