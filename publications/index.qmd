@@ -1,6 +1,12 @@
 ---
 title: "Publications"
 listing:
+  - id: featured
+    type: default
+    contents: featured.yml
+    sort: "date desc"
+    categories: false
+    fields: [image, date, title, subtitle, author, description]
   - id: publications
     type: table
     contents: publications.yml
@@ -12,11 +18,18 @@ listing:
         author: "Authors"
         description: "Cited by"
 page-layout: full
-toc: false
+toc: true
 toc-location: right
 toc-title: Type
 ---
 
+### Featured
+
+
+:::{#featured}
+:::
+
+### All
 The following list is based on data retrieved from
 [OpenAlex](https://openalex.org/works?page=1&filter=authorships.author.id%3Aa5086452643).
 
