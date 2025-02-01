@@ -42,8 +42,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-1ba7b37a7506f70259362fd0f70249b7.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8610bf0f8174e088823ffb4e89c01377.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-0856b1aa52a371cc8652e6c58304df79.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-e21a3bb8a48181420d54862a2558adc3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-38429f5854085300816d5500e32e44e2.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,6 +72,34 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-date","listing-author","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured'] = new List('listing-featured', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-publications .list');
@@ -133,8 +161,10 @@ window.Quarto = {
 
 <meta property="og:title" content="Publications – Niko Sirmpilatze">
 <meta property="og:description" content="Niko Sirmpilatze’s personal website">
-<meta property="og:image" content="https://niksirbi.github.io/static/img/headshot.jpg">
+<meta property="og:image" content="https://niksirbi.github.io/static/img/burst-suppression.png">
 <meta property="og:site_name" content="Niko Sirmpilatze">
+<meta property="og:image:height" content="1590">
+<meta property="og:image:width" content="2734">
 </head>
 
 <body class="nav-fixed">
@@ -194,9 +224,18 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Type</h2>
+   
+  <ul>
+  <li><a href="#featured" id="toc-featured" class="nav-link active" data-scroll-target="#featured">Featured</a></li>
+  <li><a href="#all" id="toc-all" class="nav-link" data-scroll-target="#all">All</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -205,7 +244,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -217,6 +256,46 @@ window.Quarto = {
 </header>
 
 
+<section id="featured" class="level3">
+<h3 class="anchored" data-anchor-id="featured">Featured</h3>
+<div id="listing-featured" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1653350400000">
+<div class="thumbnail">
+<p><a href="https://doi.org/10.7554/elife.74813" class="no-external"></a></p><a href="https://doi.org/10.7554/elife.74813" class="no-external">
+<p><img loading="lazy" src="../static/img/burst-suppression.png" class="thumbnail-image"></p>
+</a><p><a href="https://doi.org/10.7554/elife.74813" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://doi.org/10.7554/elife.74813" class="no-external">Spatial signatures of anesthesia-induced burst-suppression differ between primates and rodents</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://doi.org/10.7554/elife.74813" class="no-external">eLife</a>
+</div>
+<div class="listing-description">
+<a href="https://doi.org/10.7554/elife.74813" class="no-external">The main publication coming out of my PhD work</a>
+</div>
+</div>
+<div class="metadata">
+<a href="https://doi.org/10.7554/elife.74813" class="no-external">
+<div class="listing-date">
+May 24, 2022
+</div>
+<div class="listing-author">
+Nikoloz Sirmpilatze et al.
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="all" class="level3">
+<h3 class="anchored" data-anchor-id="all">All</h3>
 <p>The following list is based on data retrieved from <a href="https://openalex.org/works?page=1&amp;filter=authorships.author.id%3Aa5086452643">OpenAlex</a>.</p>
 <div id="listing-publications" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
@@ -336,7 +415,7 @@ window.Quarto = {
 <span class="listing-author">Joanes Grandjean et al.</span>
 </td>
 <td>
-<span class="listing-description">53</span>
+<span class="listing-description">57</span>
 </td>
 </tr>
 <tr data-index="4" data-listing-date-sort="1653350400000" data-listing-title-sort="Spatial signatures of anesthesia-induced burst-suppression differ between primates and rodents">
@@ -455,7 +534,7 @@ window.Quarto = {
 <span class="listing-author">Michael P. Milham et al.</span>
 </td>
 <td>
-<span class="listing-description">114</span>
+<span class="listing-description">115</span>
 </td>
 </tr>
 <tr data-index="11" data-listing-date-sort="1573603200000" data-listing-title-sort="Temporal stability of fMRI in medetomidine-anesthetized rats">
@@ -472,7 +551,7 @@ window.Quarto = {
 <span class="listing-author">Nikoloz Sirmpilatze et al.</span>
 </td>
 <td>
-<span class="listing-description">39</span>
+<span class="listing-description">40</span>
 </td>
 </tr>
 </tbody>
@@ -484,6 +563,7 @@ No matching items
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
