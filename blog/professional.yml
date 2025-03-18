@@ -19,4 +19,11 @@
   title: Data organisation with NeuroBlueprint
   description: "Addressing the challenge of unstandardised data in systems neuroscience."
   categories: [Data management]
+- path: https://brainglobe.info/blog/uncharted-brains.html
+  author: Niko Sirmpilatze
+  date: 2025-03-17
+  image: ../static/img/template-builder.png
+  title: "Uncharted brains: expanding beyond existing atlases"
+  description: "Why and how the BrainGlobe project is moving to build new neuroanatomical atlase."
+  categories: [Neuroanatomy]
 
