@@ -6,4 +6,12 @@
   date: '2022-05-24'
   author: Nikoloz Sirmpilatze et al.
   description: 'The main publication coming out of my PhD work'
+- path: https://doi.org/10.1101/2025.03.04.641293
+  image: ../static/img/template-builder.png
+  title: 'Mapping the magnetoreceptive brain: A 3D digital atlas of the migratory
+    bird Eurasian blackcap (<i>Sylvia atricapilla</i>)'
+  subtitle: bioRxiv
+  date: '2025-03-10'
+  author: Nikoloz Sirmpilatze, Alessandro Felder, Dinora Abdulazhanova et al.
+  description: 'My most recent work on a new bird brain atlas'
   
