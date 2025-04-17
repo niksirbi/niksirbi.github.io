@@ -1,4 +1,4 @@
-name: Render website and publish to GitHub Pages
+name: Publish
 
 # Render presentation with Quarto on all merges to main, all pull requests, 
 # or by manual workflow dispatch. The build job can be used as a CI check 
