@@ -1,5 +1,6 @@
 ![Quarto](https://img.shields.io/badge/📘_built_with-Quarto-4d77cf)
-[![Render & Publish](https://github.com/niksirbi/niksirbi.github.io/actions/workflows/render_and_deploy.yaml/badge.svg)](https://github.com/niksirbi/niksirbi.github.io/actions/workflowsrender_and_deploy.yaml)
+[![Publish Action](https://github.com/niksirbi/niksirbi.github.io/actions/workflows/render_and_deploy.yaml/badge.svg)](https://github.com/niksirbi/niksirbi.github.io/actions/workflowsrender_and_deploy.yaml)
+[![View Site](https://img.shields.io/badge/View-Site-brightgreen)](https://nikosirmpilatze.com)
 
 # My personal website
 
