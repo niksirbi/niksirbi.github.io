@@ -1,5 +1,5 @@
 [codespell]
-skip = .git
+skip = .git,*.js
 check-hidden = true
 ignore-regex = '.*# codespell-ignore$'
 ignore-words-list = Domin
