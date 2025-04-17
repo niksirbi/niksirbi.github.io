@@ -1,0 +1,45 @@
+name: Update publications
+
+on:
+  workflow_dispatch:    # manual trigger
+  schedule:
+    - cron: '0 8 1 * *' # 8:00 UTC on the 1st of every month
+
+jobs:
+  update:
+    name: Fetch publications and open PR if changed
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # needed to push to a branch
+      pull-requests: write # needed to open a PR
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # needed for diff detection
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Run publication fetch script
+        run: python scripts/fetch_my_publications.py
+
+      - name: Create pull request if publications updated
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: update publications.yml"
+          title: "Update publications"
+          body: |
+            This PR updates the publications list using the OpenAlex API.
+            Triggered by the monthly schedule or manual dispatch.
+          branch: update-publications
+          author: "Niko Sirbiladze <niko.sirbiladze@gmail.com>"
+          delete-branch: true
