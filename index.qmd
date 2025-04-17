@@ -18,11 +18,12 @@ about:
       icon: envelope-fill
 ---
 
+<link href="https://neuromatch.social/@niksirbi" rel="me">
 
 Thanks for stopping by my little corner of the internet!
 
 I'm a London-based **neuroscientist** and **research software engineer**
-dedicated to developing free, Open Source tools for studying brains and the
+dedicated to developing free, open-source tools for studying brains and the
 behaviours they produce. My background in medicine and a PhD in neuroimaging have left me with a
 passion for neuroanatomy, and especially brain atlases.
 
