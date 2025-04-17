@@ -27,6 +27,8 @@ website:
         href: https://github.com/niksirbi
       - icon: mastodon
         href: https://neuromatch.social/@niksirbi
+      - text: "{{< iconify simple-icons bluesky >}}"
+        href: https://bsky.app/profile/nikosirmpilatze.com
 
 format:
   html:
