@@ -13,6 +13,8 @@ about:
     - text: Mastodon
       href: https://neuromatch.social/@niksirbi
       icon: mastodon
+    - text: "{{< iconify simple-icons bluesky >}} Bluesky"
+      href: https://bsky.app/profile/nikosirmpilatze.com
     - text: Email
       href: mailto:niko.sirbiladze@gmail.com
       icon: envelope-fill
