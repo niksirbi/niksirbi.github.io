@@ -26,11 +26,15 @@ Thanks for stopping by my little corner of the internet!
 
 I'm a London-based **neuroscientist** and **research software engineer**
 dedicated to developing free, open-source tools for studying brains and the
-behaviours they produce. My background in medicine and a PhD in neuroimaging have left me with a
-passion for neuroanatomy, and especially brain atlases.
+behaviours they produce.
 
-I am deeply committed to promoting open, collaborative, and reproducible
-science. I find joy in dancing to jazz music and in failing to play woodwind instruments.
+I lead the development of [movement](https://movement.neuroinformatics.dev)
+— a Python package for analysing animal body movements across space and time.
+As a self-proclaimed **brain cartographer**, I also harbour a passion for neuroanatomy
+and contribute to the [BrainGlobe](https://brainglobe.info/) project.
+
+I'm deeply committed to promoting open, collaborative, and reproducible
+science. I find joy in dancing to jazz and folk music.
 
 ### Current Role
 
