@@ -1,0 +1,40 @@
+---
+title: "Fetching publications from OpenAlex"
+author: Niko Sirmpilatze
+description: "How I compile a list of my research publications using OpenAlex's Python API."
+date: 2025-04-30
+image: ../static/img/OpenAlex_logo_2021_512px.png
+categories: ["Tips & Tricks"]
+---
+
+`Hello world`, and **welcome** to my first personal blog post.
+
+## Why post at all?
+
+Well, I recently rebuilt my [personal website](nikosirmpilatze.com) — the one you're looking at — using [Quarto](https://quarto.org). The previous version was made with Hugo and the Academic theme, mostly following Dan Quintana's excellent guides. But it felt like time for a change.
+
+Quarto is what all the cool nerds I follow on Mastodon seem to be using these days. I'd already used it to make slides (with `revealjs`), so I figured: why not try building a full site with it? My personal website became the perfect test case.
+
+And honestly, I'm loving the experience. There's something deeply satisfying about Quarto's unified approach — one markdown-ish syntax for websites, slides, books, and more. It's powerful, and many aspects of it really click with me.
+
+That said, **this post isn't about Quarto**, nor is it a how-to for making your own site (though I'll link to a few great resources and some beautiful personal sites that inspired me at the end).
+
+## What this post *is* about
+
+I want to focus on one section that appears on most academic websites — whether personal or lab-based: **the publications page**.
+
+You know the one. It's where we list all our papers, and it's a pain to maintain. Every time a new paper came out, I either forgot to update the list, or couldn't be bothered to spend the ~15 minutes needed. I usually only remembered to update it when applying for jobs or grants and doing a quick web presence tidy-up.
+
+Not that I'm so prolific that it's hard to keep up; I'm just lazy and easily distracted. If you publish more than I do, the problem's probably even worse.
+
+## My goal
+
+With the revamped site, I wanted to **automate** the publication list, or at least make it ultra-low-maintenance. My papers are already out there, so there *must* be a way to pull them from the web and force the metadata into something Quarto can render, right?
+
+I'm paid to write software these days, so I figured I could make it work.
+
+It took a while — probably two full days of work scattered across a few months. I don't claim this is the only or best way, but my solution uses a fully open stack and builds on recent improvements in how scholarly work is indexed.
+
+In this post (**Part 1**), I'll walk through how I harvest my publication data using **OpenAlex**.
+
+In **Part 2**, I'll explain how I convert that data into the clean table you see on my site — and how I automate the process to keep it up to date.

@@ -1,6 +1,13 @@
 ---
 title: "Blogposts"
 listing:
+  - id: personal
+    type: default
+    contents: .  # This pulls in all blog/*.qmd (excluding index.qmd)
+    sort: "date desc"
+    feed: true   # Enable RSS feed for this listing
+    categories: true
+    fields: [image, date, author, title, categories, description]
   - id: professional
     type: default
     contents: professional.yml
@@ -12,6 +19,12 @@ toc: false
 toc-location: right
 toc-title: Type
 ---
+
+Personal musings on research, software development, and their intersection.
+You can [subscribe to RSS](https://www.nikosirmpilatze.com/blog/index.xml).
+
+:::{#personal}
+:::
 
 Posts I have (co-)authored in my professional capacity.
 Each entry links to an external website.

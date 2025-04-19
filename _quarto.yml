@@ -29,6 +29,8 @@ website:
         href: https://neuromatch.social/@niksirbi
       - text: "{{< iconify simple-icons bluesky >}}"
         href: https://bsky.app/profile/nikosirmpilatze.com
+      - icon: rss
+        href: https://www.nikosirmpilatze.com/blog/index.xml
 
 format:
   html:
@@ -39,3 +41,4 @@ format:
     page-layout: full
     mainfont: "Barlow"
     monofont: "JetBrains Mono"
+    include-in-header: rss-link.html
