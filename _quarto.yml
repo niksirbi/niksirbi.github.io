@@ -22,6 +22,8 @@ website:
         text: Blogposts
       - href: publications/index.qmd
         text: Publications
+      - href: cv/index.qmd
+        text: CV
     right:
       - icon: github
         href: https://github.com/niksirbi

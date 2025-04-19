@@ -1,0 +1,26 @@
+---
+title: "CV"
+description: "Curriculum Vitae"
+listing:
+  - id: education
+    type: table
+    contents: education.yml
+    sort: "date desc"
+    categories: false
+    fields: [date, title, author, subtitle]
+    field-display-names:
+        title: "Degree"
+        subtitle: "Thesis Title"
+        author: "Institution"
+page-layout: full
+toc: true
+date-format: "MMM, YYYY"
+---
+
+
+### Education
+
+:::{#education}
+:::
+
+
