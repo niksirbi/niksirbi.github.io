@@ -11,7 +11,7 @@
   subtitle: eLife
   date: '2022-05-24'
   author: Nikoloz Sirmpilatze et al.
-  description: '15'
+  description: '16'
 - path: https://doi.org/10.1038/s41598-019-53144-y
   title: Temporal stability of fMRI in medetomidine-anesthetized rats
   subtitle: Scientific Reports
@@ -30,7 +30,7 @@
   subtitle: NeuroImage
   date: '2020-11-20'
   author: Adam Messinger, Nikoloz Sirmpilatze et al.
-  description: '51'
+  description: '53'
 - path: https://doi.org/10.1101/2024.03.06.583699
   title: 'NeuralPlayground: A Standardised Environment for Evaluating Models of Hippocampus
     and Entorhinal Cortex'
@@ -51,7 +51,7 @@
   subtitle: Cerebral Cortex
   date: '2020-09-02'
   author: Georg Hafner et al.
-  description: '6'
+  description: '7'
 - path: https://doi.org/10.1101/2024.09.27.615384
   title: Activation mapping in multi-center rat sensory-evoked functional MRI datasets
     using a unified pipeline.
@@ -64,13 +64,13 @@
   subtitle: Neuron
   date: '2020-02-01'
   author: Michael P. Milham et al.
-  description: '117'
+  description: '118'
 - path: https://doi.org/10.1038/s41593-023-01286-8
   title: A consensus protocol for functional connectivity analysis in the rat brain
   subtitle: Nature Neuroscience
   date: '2023-03-27'
   author: Joanes Grandjean et al.
-  description: '64'
+  description: '68'
 - path: https://doi.org/10.1016/j.neuron.2021.10.015
   title: 'Toward next-generation primate neuroscience: A collaboration-based strategic
     plan for integrative neuroimaging'
