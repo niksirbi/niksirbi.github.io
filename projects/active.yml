@@ -1,6 +1,6 @@
 - path: https://movement.neuroinformatics.dev
   title: movement
-  description: "Python tools for analysing body movements across space and time."
+  description: "Python package for analysing body movements across space and time."
   image: ../static/img/movement.png
   categories: [Software]
 - path: https://neuroblueprint.neuroinformatics.dev
@@ -13,15 +13,10 @@
   description: "Build unbiased anatomical templates from individual 3D brain images."
   image: ../static/img/template-builder.png
   categories: [Software]
-- path: https://software-skills.neuroinformatics.dev/courses/video-analysis.html
-  title: "Video-based analysis of animal behaviour"
-  description: "One-day workshop taught annually to neuroscience PhD students."
-  image: ../static/img/behaviour-course.png
-  categories: [Teaching]
-- path: https://software-skills.neuroinformatics.dev/courses/hpc-behaviour.html
-  title: "Running pose estimation on the SWC HPC system"
-  description: "Half-day workshop taught annually to neuroscience PhD students."
-  image: ../static/img/hpc-course.png
+- path: https://animals-in-motion.neuroinformatics.dev/latest/
+  title: Animals in Motion
+  description: "An online book about open-source tools for tracking animal motion from video footage and quantifying behaviour."
+  image: ../static/img/animals-in-motion.png
   categories: [Teaching]
 - path: https://github.com/afids/afids-macaca
   title: afids-macaca
