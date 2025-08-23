@@ -1,6 +1,8 @@
+import os
 import yaml
 import pyalex
 from typing import List, Dict, Any
+
 
 # Configuration
 AUTHOR_ID = "A5086452643"
@@ -24,10 +26,11 @@ def fetch_publications() -> List[Dict[Any, Any]]:
 
     # Fetch publications by work type
     for work_type in ["article", "review", "preprint"]:
-        publications += pyalex.Works().filter(
-            authorships={"author": {"id": AUTHOR_ID}},
-            type=work_type
-        ).get()
+        publications += (
+            pyalex.Works()
+            .filter(authorships={"author": {"id": AUTHOR_ID}}, type=work_type)
+            .get()
+        )
 
     # Add specific publications by ID that were missed by the filter
     # (because I was not among the first 100 listed authors)
@@ -41,15 +44,13 @@ def fetch_publications() -> List[Dict[Any, Any]]:
     return publications
 
 
-def format_authors(
-    authorships: List[Dict], my_position: int, num_authors: int
-) -> str:
+def format_authors(authorships: List[Dict], my_position: int, num_authors: int) -> str:
     """Format author string based on my position in the author list."""
     author_names = [a["author"]["display_name"] for a in authorships]
 
     # If am among the first three authors, include me before "et al."
     if my_position < 3:
-        authors_str = ", ".join(author_names[:my_position + 1])
+        authors_str = ", ".join(author_names[: my_position + 1])
         if num_authors > my_position + 1:
             authors_str += " et al."
     # Otherwise, include only the first author and "et al."
@@ -70,9 +71,7 @@ def extract_author_info(authorships: List[Dict]) -> Dict:
         author_names.append(authorship["author"]["display_name"])
         if authorship["author"]["id"].endswith(AUTHOR_ID):
             author_info["my_position"] = idx
-            author_info["me_first_author"] = (
-                authorship["author_position"] == "first"
-            )
+            author_info["me_first_author"] = authorship["author_position"] == "first"
             author_info["me_corresponding"] = authorship["is_corresponding"]
             author_info["my_affiliations"] = [
                 aff["display_name"] for aff in authorship["institutions"]
@@ -95,12 +94,8 @@ def format_publication(pub: Dict) -> Dict:
 
     # Format author string and determine category
     my_pos = new_pub["my_position"]
-    new_pub["authors_str"] = format_authors(
-        authorships, my_pos, new_pub["num_authors"]
-    )
-    new_pub["categories"] = (
-        ["Main Author"] if my_pos < 3 else ["Contributing Author"]
-    )
+    new_pub["authors_str"] = format_authors(authorships, my_pos, new_pub["num_authors"])
+    new_pub["categories"] = ["Main Author"] if my_pos < 3 else ["Contributing Author"]
 
     # Extract source information
     source = pub["primary_location"]["source"]
@@ -116,15 +111,11 @@ def remove_duplicate_pubs(pubs: List[Dict]) -> List[Dict]:
     """
     cleaned_pubs = []
     for pub in pubs:
-        idx = [
-            i for i, p in enumerate(cleaned_pubs) if p["title"] == pub["title"]
-        ]
+        idx = [i for i, p in enumerate(cleaned_pubs) if p["title"] == pub["title"]]
         if not idx:  # If the title is not already in cleaned_pubs
             cleaned_pubs.append(pub)
-        elif len(idx) > 1:   # If multiple "clean" publications share a title
-            raise ValueError(
-                "Publication titles in cleaned_pubs are not unique"
-            )
+        elif len(idx) > 1:  # If multiple "clean" publications share a title
+            raise ValueError("Publication titles in cleaned_pubs are not unique")
         else:  # If the title is already in cleaned_pubs once
             idx = idx[0]
             if pub["source_type"] == "journal":
@@ -140,7 +131,8 @@ def sort_publications(pubs: List[Dict]) -> List[Dict]:
     return sorted(
         pubs,
         key=lambda pub: (
-            pub["my_position"], -int(pub["publication_date"].replace("-", ""))
+            pub["my_position"],
+            -int(pub["publication_date"].replace("-", "")),
         ),
     )
 
@@ -172,9 +164,24 @@ def process_pubs(pubs: List[Dict]) -> List[Dict]:
     return sort_publications(remove_duplicate_pubs(processed_pubs))
 
 
-def write_yaml(pubs: List[Dict], output_path: str):
-    """Write the processed publications to a YAML file."""
-    content = []
+def update_yaml(pubs: List[Dict], output_path: str):
+    """Update or create the YAML file with processed publications."""
+    # Load existing content if file exists
+    if os.path.exists(output_path):
+        with open(output_path, "r") as f:
+            try:
+                existing_content = yaml.safe_load(f) or []
+            except Exception:
+                existing_content = []
+    else:
+        existing_content = []
+
+    # Index existing publications by DOI for quick lookup
+    existing_by_doi = {
+        pub.get("path"): pub for pub in existing_content if pub.get("path")
+    }
+
+    # Update or add new publications
     for pub in pubs:
         pub_dict = {
             "path": pub["doi"],
@@ -184,10 +191,17 @@ def write_yaml(pubs: List[Dict], output_path: str):
             "author": pub["authors_str"],
             "description": str(pub["cited_by_count"]),
         }
-        content.append(pub_dict)
+        if pub_dict["path"] in existing_by_doi:
+            # Update existing entry
+            existing_by_doi[pub_dict["path"]].update(pub_dict)
+        else:
+            # Add new entry
+            existing_by_doi[pub_dict["path"]] = pub_dict
 
+    # Write back all publications (preserving order as much as possible)
+    updated_content = list(existing_by_doi.values())
     with open(output_path, "w") as f:
-        yaml.dump(content, f, sort_keys=False)
+        yaml.dump(updated_content, f, sort_keys=False)
 
 
 def main():
@@ -195,7 +209,7 @@ def main():
     pyalex.config.email = EMAIL
     pubs = fetch_publications()
     processed_pubs = process_pubs(pubs)
-    write_yaml(processed_pubs, OUTPUT_PATH)
+    update_yaml(processed_pubs, OUTPUT_PATH)
 
 
 if __name__ == "__main__":
