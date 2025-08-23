@@ -29,6 +29,8 @@ jobs:
 
       - name: Install dependencies
         run: |
+          uv venv
+          source .venv/bin/activate
           uv pip install -r scripts/requirements.txt
 
       - name: Run publication fetch script
