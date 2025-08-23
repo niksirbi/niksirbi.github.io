@@ -17,7 +17,7 @@
   subtitle: Scientific Reports
   date: '2019-11-13'
   author: Nikoloz Sirmpilatze et al.
-  description: '41'
+  description: '42'
 - path: https://doi.org/10.1162/imag_a_00230
   title: An anesthetic protocol for preserving functional network structure in the
     marmoset monkey brain
@@ -44,7 +44,7 @@
   subtitle: Acta Neuropathologica Communications
   date: '2020-12-01'
   author: Melanie Lohrberg et al.
-  description: '20'
+  description: '21'
 - path: https://doi.org/10.1093/cercor/bhaa280
   title: Increased Callosal Connectivity in Reeler Mice Revealed by Brain-Wide Input
     Mapping of VIP Neurons in Barrel Cortex
@@ -70,17 +70,17 @@
   subtitle: Nature Neuroscience
   date: '2023-03-27'
   author: Joanes Grandjean et al.
-  description: '73'
+  description: '74'
 - path: https://doi.org/10.1016/j.neuron.2021.10.015
   title: 'Toward next-generation primate neuroscience: A collaboration-based strategic
     plan for integrative neuroimaging'
   subtitle: Neuron
   date: '2021-11-03'
   author: Michael P. Milham et al.
-  description: '39'
+  description: '41'
 - path: https://doi.org/10.1016/j.neuron.2021.04.001
   title: 'Brainhack: Developing a culture of open, inclusive, community-driven neuroscience'
   subtitle: Neuron
   date: '2021-04-30'
   author: "R\xE9mi Gau et al."
-  description: '44'
+  description: '45'
