@@ -1,3 +1,7 @@
+- path: https://github.com/afids/afids-macaca
+  title: afids-macaca
+  description: "Anatomical fiducials protocol adapted for macaques."
+  categories: [Software, Standards]
 - path: https://github.com/niksirbi/pcarpet
   title: pcarpet
   description: "Create a carpet plot from fMRI data and decompose it with PCA"

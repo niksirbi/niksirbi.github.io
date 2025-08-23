@@ -18,8 +18,3 @@
   description: "An online book about open-source tools for tracking animal motion from video footage and quantifying behaviour."
   image: ../static/img/animals-in-motion.png
   categories: [Teaching]
-- path: https://github.com/afids/afids-macaca
-  title: afids-macaca
-  description: "Anatomical fiducials protocol adapted for macaques."
-  image: ../static/img/afids-macaca.png
-  categories: [Software, Standards]
