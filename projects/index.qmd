@@ -12,7 +12,7 @@ listing:
     contents: past.yml
     sort: "date desc"
     categories: true
-    fields: [image, title, categories, description]
+    fields: [title, categories, description]
 page-layout: full
 toc: true
 toc-location: right
