@@ -3,6 +3,11 @@
   description: "Python package for analysing body movements across space and time."
   image: ../static/img/movement.png
   categories: [Software]
+- path: https://animals-in-motion.neuroinformatics.dev/latest/
+  title: Animals in Motion
+  description: "A handbook about open-source tools for tracking animals in videos and quantifying behaviour."
+  image: ../static/img/animals-in-motion.png
+  categories: [Teaching]
 - path: https://neuroblueprint.neuroinformatics.dev
   title: NeuroBlueprint
   description: "Lightweight data specification for systems neuroscience, inspired by BIDS."
@@ -13,8 +18,3 @@
   description: "Build unbiased anatomical templates from individual 3D brain images."
   image: ../static/img/template-builder.png
   categories: [Software]
-- path: https://animals-in-motion.neuroinformatics.dev/latest/
-  title: Animals in Motion
-  description: "An online book about open-source tools for tracking animal motion from video footage and quantifying behaviour."
-  image: ../static/img/animals-in-motion.png
-  categories: [Teaching]
