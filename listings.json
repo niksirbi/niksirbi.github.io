@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/blog/index.html",
+    "listing": "/publications/index.html",
     "items": []
   },
   {
@@ -8,7 +8,7 @@
     "items": []
   },
   {
-    "listing": "/publications/index.html",
+    "listing": "/blog/index.html",
     "items": []
   }
 ]
