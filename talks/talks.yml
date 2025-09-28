@@ -1,0 +1,28 @@
+- path: https://www.youtube.com/watch?v=MoJ3HNUT4Lc
+  date: 2021-11-24
+  title: "fMRI signatures of deep anesthesia in primates and rodents"
+  subtitle: "CIC Imaging Series Lecture at the Douglas Research Centre."
+  description: "My main PhD project."
+  image: ../static/img/burst-suppression.png
+  categories: [Video]
+- path: https://www.youtube.com/watch?v=JM3HFCjn5ss
+  date: 2024-10-07
+  title: "Kickstart a community of practice for open-source tools in animal behaviour"
+  subtitle: Software Sustainability Institute (SSI) Fellowship Programme 2025 Screencast
+  description: "My plans for the SSI Fellowship Programme."
+  image: ../static/img/ssi.png
+  categories: [Video]
+- path: https://www.youtube.com/watch?v=GXBQsqqZZTg
+  date: 2025-02-27
+  title: "Movement: a Python toolbox for analysing animal body movements across space and time."
+  subtitle: "ABIDE seminar studying with animals: critical perspectives on artificial intelligence."
+  description: "A primer on machine learning for animal behaviour, followed by an overview of the `movement` package."
+  image: ../static/img/movement.png
+  categories: [Video]
+- path: https://www.youtube.com/watch?v=I_IQH0OScQs
+  date: 2025-07-21
+  title: "Meet the 2025 SSI Fellows."
+  subtitle: "Code for Thought podcast."
+  description: "An interview with three of the 2025 Software Sustainability Institute (SSI) Fellows, including myself."
+  image: ../static/img/code-for-thought.png
+  categories: [Podcast]
