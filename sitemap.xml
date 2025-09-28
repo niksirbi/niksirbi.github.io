@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.nikosirmpilatze.com/publications/index.html</loc>
-    <lastmod>2025-09-01T08:40:55.163Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.nikosirmpilatze.com/index.html</loc>
-    <lastmod>2025-09-01T08:40:55.163Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.nikosirmpilatze.com/projects/index.html</loc>
-    <lastmod>2025-09-01T08:40:55.163Z</lastmod>
+    <loc>https://www.nikosirmpilatze.com/talks/index.html</loc>
+    <lastmod>2025-09-28T21:26:33.178Z</lastmod>
   </url>
   <url>
     <loc>https://www.nikosirmpilatze.com/blog/index.html</loc>
-    <lastmod>2025-09-01T08:40:55.163Z</lastmod>
+    <lastmod>2025-09-28T21:26:33.167Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.nikosirmpilatze.com/projects/index.html</loc>
+    <lastmod>2025-09-28T21:26:33.167Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.nikosirmpilatze.com/index.html</loc>
+    <lastmod>2025-09-28T21:26:33.167Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.nikosirmpilatze.com/publications/index.html</loc>
+    <lastmod>2025-09-28T21:26:33.168Z</lastmod>
   </url>
 </urlset>
