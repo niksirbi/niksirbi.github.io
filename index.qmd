@@ -24,17 +24,13 @@ about:
 
 Thanks for stopping by my little corner of the internet!
 
-I'm a London-based **neuroscientist** and **research software engineer**
-dedicated to developing free, open-source tools for studying brains and the
-behaviours they produce.
+I'm a London-based **neuroscientist** and **research software engineer** passionate about open, collaborative, and reproducible science.
 
-I lead the development of [movement](https://movement.neuroinformatics.dev)
-— a Python package for analysing animal body movements across space and time.
-As a self-proclaimed **brain cartographer**, I also harbour a passion for neuroanatomy
-and contribute to the [BrainGlobe](https://brainglobe.info/) project.
+I build open-source tools to study brains and the behaviours they produce, and I lead [movement](https://movement.neuroinformatics.dev)—a Python package for analysing animal motion. With a background in medicine and a PhD in neuroimaging, I've kept a long-standing interest in computational neuroanatomy, contributing to [BrainGlobe](https://brainglobe.info/) and helping create new brain atlases for emerging model organisms.
 
-I'm deeply committed to promoting open, collaborative, and reproducible
-science. I find joy in dancing to jazz and folk music.
+As a [Fellow of the Software Sustainability Institute](https://www.software.ac.uk/programmes/fellowship-programme), I work to spread the adoption of open-source tools for animal behaviour, especially through training workshops for early-career researchers.
+
+Beyond work, I find joy in dancing to jazz and folk music.
 
 ### Current Role
 
