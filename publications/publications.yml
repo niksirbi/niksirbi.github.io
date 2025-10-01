@@ -59,13 +59,6 @@
   date: '2020-09-02'
   author: Georg Hafner et al.
   description: '7'
-- path: https://doi.org/10.1101/2024.09.27.615384
-  title: Activation mapping in multi-center rat sensory-evoked functional MRI datasets
-    using a unified pipeline.
-  subtitle: bioRxiv
-  date: '2024-09-30'
-  author: Marie E Galteau et al.
-  description: '0'
 - path: https://doi.org/10.1016/j.neuron.2019.12.023
   title: Accelerating the Evolution of Nonhuman Primate Neuroimaging
   subtitle: Neuron
