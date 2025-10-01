@@ -18,7 +18,7 @@
   subtitle: eLife
   date: '2022-05-24'
   author: Nikoloz Sirmpilatze et al.
-  description: '19'
+  description: '20'
 - path: https://doi.org/10.1038/s41598-019-53144-y
   title: Temporal stability of fMRI in medetomidine-anesthetized rats
   subtitle: Scientific Reports
@@ -64,7 +64,7 @@
     using a unified pipeline.
   subtitle: bioRxiv
   date: '2024-09-30'
-  author: Marie Galteau et al.
+  author: Marie E Galteau et al.
   description: '0'
 - path: https://doi.org/10.1016/j.neuron.2019.12.023
   title: Accelerating the Evolution of Nonhuman Primate Neuroimaging
@@ -77,7 +77,7 @@
   subtitle: Nature Neuroscience
   date: '2023-03-27'
   author: Joanes Grandjean et al.
-  description: '80'
+  description: '81'
 - path: https://doi.org/10.1016/j.neuron.2021.10.015
   title: 'Toward next-generation primate neuroscience: A collaboration-based strategic
     plan for integrative neuroimaging'
@@ -90,4 +90,11 @@
   subtitle: Neuron
   date: '2021-04-30'
   author: "R\xE9mi Gau et al."
-  description: '45'
+  description: '46'
+- path: https://doi.org/10.1162/imag.a.157
+  title: Activation mapping in multi-center retrospective rat sensory-evoked functional
+    MRI datasets using a unified pipeline
+  subtitle: Imaging Neuroscience
+  date: '2025-01-01'
+  author: Marie E Galteau et al.
+  description: '0'
