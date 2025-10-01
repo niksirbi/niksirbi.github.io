@@ -17,6 +17,7 @@ EXCLUDE_KEYWORDS = [
     "StandardRat",
     "Preserving functional network structure under anesthesia",
     "Circuits in the absence of cortical layers",
+    "multi-center rat sensory-evoked",
 ]
 
 
