@@ -2,11 +2,11 @@
 title: "Talks"
 listing:
   - id: talks
-    type: default
+    type: table
     contents: talks.yml
     sort: "date desc"
     categories: true
-    fields: [image, date, title, subtitle, categories, description]
+    fields: [date, title, subtitle, categories, description]
     field-display-names:
         subtitle: "Venue"
 page-layout: full
@@ -15,8 +15,8 @@ toc-location: right
 toc-title: Type
 ---
 
-A selection of talks I've given, with recordings available
-on YouTube.
+A selection of talks I've given, with recordings/slides available
+online.
 
 :::{#talks}
 :::

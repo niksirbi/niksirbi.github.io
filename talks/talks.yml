@@ -26,3 +26,10 @@
   description: "An interview with three of the 2025 Software Sustainability Institute (SSI) Fellows, including myself."
   image: ../static/img/code-for-thought.png
   categories: [Podcast]
+- path: https://neuroinformatics.dev/slides-movement-cbias2025/#/title-slide
+  date: 2025-11-24
+  title: "Movement: a Python Toolbox for Analysing Motion Tracking Data."
+  subtitle: "Crick Bioimage Analysis Symposium."
+  description: "A high-level overview of the `movement` package."
+  image: ../static/img/movement.png
+  categories: [Slides]
