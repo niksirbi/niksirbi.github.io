@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -40,9 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-17272e19d34237b4445191b00a44da21.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-5d0bb37017ba0a20362ccd77de87586e.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-17272e19d34237b4445191b00a44da21.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-4ddf543e2355fdfec88fa953ceab072a.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-6467b12c6c03d5037881bc32f87def46.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-4ddf543e2355fdfec88fa953ceab072a.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-4a518ed483ba8d5fb1149a8394d6f34e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-subtitle','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-subtitle","listing-description","listing-image","listing-categories"],
     };
@@ -138,10 +138,8 @@ window.Quarto = {
 
 <meta property="og:title" content="Talks – Niko Sirmpilatze">
 <meta property="og:description" content="Niko Sirmpilatze’s personal website">
-<meta property="og:image" content="https://www.nikosirmpilatze.com/static/img/code-for-thought.png">
+<meta property="og:image" content="https://www.nikosirmpilatze.com//static/img/headshot.jpg">
 <meta property="og:site_name" content="Niko Sirmpilatze">
-<meta property="og:image:height" content="513">
-<meta property="og:image:width" content="900">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -313,8 +311,6 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Niko Sirmpilatze</span>
     </a>
@@ -375,7 +371,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="UG9kY2FzdA==">Podcast <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlkZW8=">Video <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UG9kY2FzdA==">Podcast <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2xpZGVz">Slides <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlkZW8=">Video <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -399,130 +395,164 @@ window.Quarto = {
 </header>
 
 
-<p>A selection of talks I’ve given, with recordings available on YouTube.</p>
-<div id="listing-talks" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UG9kY2FzdA==" data-listing-date-sort="1753056000000">
-<div class="thumbnail"><a href="https://www.youtube.com/watch?v=I_IQH0OScQs" class="no-external">
+<p>A selection of talks I’ve given, with recordings/slides available online.</p>
+<div id="listing-talks" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-talks-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-talks'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-subtitle" data-direction="asc">
+        Venue
+      </option>
+      <option value="listing-description" data-direction="asc">
+        Description
+      </option>
+      <option value="listing-categories" data-direction="asc">
+        Categories
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
 
-<img loading="lazy" src="../static/img/code-for-thought.png" class="thumbnail-image">
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://www.youtube.com/watch?v=I_IQH0OScQs" class="no-external">Meet the 2025 SSI Fellows.</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://www.youtube.com/watch?v=I_IQH0OScQs" class="no-external">Code for Thought podcast.</a>
-</div>
-<div class="listing-categories">
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('UG9kY2FzdA=='); return false;">Podcast</div>
+<th>
+<a class="sort" data-sort="listing-subtitle" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Venue</a>
+</th>
 
-</div>
-<div class="delink listing-description"><a href="https://www.youtube.com/watch?v=I_IQH0OScQs" class="no-external">
-<p>An interview with three of the 2025 Software Sustainability Institute (SSI) Fellows, including myself.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://www.youtube.com/watch?v=I_IQH0OScQs" class="no-external">
-<div class="listing-date">
-Jul 21, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="VmlkZW8=" data-listing-date-sort="1740614400000">
-<div class="thumbnail"><a href="https://www.youtube.com/watch?v=GXBQsqqZZTg" class="no-external">
+<th>
+<a class="sort" data-sort="listing-categories" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Categories</a>
+</th>
 
-<img loading="lazy" src="../static/img/movement.png" class="thumbnail-image">
+<th>
+<a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Description</a>
+</th>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://www.youtube.com/watch?v=GXBQsqqZZTg" class="no-external">Movement: a Python toolbox for analysing animal body movements across space and time.</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://www.youtube.com/watch?v=GXBQsqqZZTg" class="no-external">ABIDE seminar studying with animals: critical perspectives on artificial intelligence.</a>
-</div>
-<div class="listing-categories">
+</tr>
+</thead>
+<tbody class="list">
 
-<div class="listing-category" onclick="window.quartoListingCategory('VmlkZW8='); return false;">Video</div>
+<tr data-index="0" data-categories="U2xpZGVz" data-listing-date-sort="1763942400000" data-listing-title-sort="Movement: a Python Toolbox for Analysing Motion Tracking Data.">
+<td>
+<span class="listing-date">Nov 24, 2025</span>
+</td>
+<td>
+<a href="https://neuroinformatics.dev/slides-movement-cbias2025/#/title-slide" class="title listing-title">Movement: a Python Toolbox for Analysing Motion Tracking Data.</a>
+</td>
+<td>
+<span class="listing-subtitle">Crick Bioimage Analysis Symposium.</span>
+</td>
+<td>
+<span class="listing-categories">Slides</span>
+</td>
+<td>
+<span class="listing-description">A high-level overview of the <code>movement</code> package.</span>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="https://www.youtube.com/watch?v=GXBQsqqZZTg" class="no-external">
-<p>A primer on machine learning for animal behaviour, followed by an overview of the <code>movement</code> package.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://www.youtube.com/watch?v=GXBQsqqZZTg" class="no-external">
-<div class="listing-date">
-Feb 27, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="VmlkZW8=" data-listing-date-sort="1728259200000">
-<div class="thumbnail"><a href="https://www.youtube.com/watch?v=JM3HFCjn5ss" class="no-external">
+</tr>
 
-<img loading="lazy" src="../static/img/ssi.png" class="thumbnail-image">
+<tr data-index="1" data-categories="UG9kY2FzdA==" data-listing-date-sort="1753056000000" data-listing-title-sort="Meet the 2025 SSI Fellows.">
+<td>
+<span class="listing-date">Jul 21, 2025</span>
+</td>
+<td>
+<a href="https://www.youtube.com/watch?v=I_IQH0OScQs" class="title listing-title">Meet the 2025 SSI Fellows.</a>
+</td>
+<td>
+<span class="listing-subtitle">Code for Thought podcast.</span>
+</td>
+<td>
+<span class="listing-categories">Podcast</span>
+</td>
+<td>
+<span class="listing-description">An interview with three of the 2025 Software Sustainability Institute (SSI) Fellows, including myself.</span>
+</td>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://www.youtube.com/watch?v=JM3HFCjn5ss" class="no-external">Kickstart a community of practice for open-source tools in animal behaviour</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://www.youtube.com/watch?v=JM3HFCjn5ss" class="no-external">Software Sustainability Institute (SSI) Fellowship Programme 2025 Screencast</a>
-</div>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('VmlkZW8='); return false;">Video</div>
+<tr data-index="2" data-categories="VmlkZW8=" data-listing-date-sort="1740614400000" data-listing-title-sort="Movement: a Python toolbox for analysing animal body movements across space and time.">
+<td>
+<span class="listing-date">Feb 27, 2025</span>
+</td>
+<td>
+<a href="https://www.youtube.com/watch?v=GXBQsqqZZTg" class="title listing-title">Movement: a Python toolbox for analysing animal body movements across space and time.</a>
+</td>
+<td>
+<span class="listing-subtitle">ABIDE seminar studying with animals: critical perspectives on artificial intelligence.</span>
+</td>
+<td>
+<span class="listing-categories">Video</span>
+</td>
+<td>
+<span class="listing-description">A primer on machine learning for animal behaviour, followed by an overview of the <code>movement</code> package.</span>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="https://www.youtube.com/watch?v=JM3HFCjn5ss" class="no-external">
-<p>My plans for the SSI Fellowship Programme.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://www.youtube.com/watch?v=JM3HFCjn5ss" class="no-external">
-<div class="listing-date">
-Oct 7, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="VmlkZW8=" data-listing-date-sort="1637712000000">
-<div class="thumbnail"><a href="https://www.youtube.com/watch?v=MoJ3HNUT4Lc" class="no-external">
+</tr>
 
-<img loading="lazy" src="../static/img/burst-suppression.png" class="thumbnail-image">
+<tr data-index="3" data-categories="VmlkZW8=" data-listing-date-sort="1728259200000" data-listing-title-sort="Kickstart a community of practice for open-source tools in animal behaviour">
+<td>
+<span class="listing-date">Oct 7, 2024</span>
+</td>
+<td>
+<a href="https://www.youtube.com/watch?v=JM3HFCjn5ss" class="title listing-title">Kickstart a community of practice for open-source tools in animal behaviour</a>
+</td>
+<td>
+<span class="listing-subtitle">Software Sustainability Institute (SSI) Fellowship Programme 2025 Screencast</span>
+</td>
+<td>
+<span class="listing-categories">Video</span>
+</td>
+<td>
+<span class="listing-description">My plans for the SSI Fellowship Programme.</span>
+</td>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://www.youtube.com/watch?v=MoJ3HNUT4Lc" class="no-external">fMRI signatures of deep anesthesia in primates and rodents</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://www.youtube.com/watch?v=MoJ3HNUT4Lc" class="no-external">CIC Imaging Series Lecture at the Douglas Research Centre.</a>
-</div>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('VmlkZW8='); return false;">Video</div>
+<tr data-index="4" data-categories="VmlkZW8=" data-listing-date-sort="1637712000000" data-listing-title-sort="fMRI signatures of deep anesthesia in primates and rodents">
+<td>
+<span class="listing-date">Nov 24, 2021</span>
+</td>
+<td>
+<a href="https://www.youtube.com/watch?v=MoJ3HNUT4Lc" class="title listing-title">fMRI signatures of deep anesthesia in primates and rodents</a>
+</td>
+<td>
+<span class="listing-subtitle">CIC Imaging Series Lecture at the Douglas Research Centre.</span>
+</td>
+<td>
+<span class="listing-categories">Video</span>
+</td>
+<td>
+<span class="listing-description">My main PhD project.</span>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="https://www.youtube.com/watch?v=MoJ3HNUT4Lc" class="no-external">
-<p>My main PhD project.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://www.youtube.com/watch?v=MoJ3HNUT4Lc" class="no-external">
-<div class="listing-date">
-Nov 24, 2021
-</div>
-</a>
-</div>
-</div>
-</div>
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
