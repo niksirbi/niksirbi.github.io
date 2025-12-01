@@ -9,15 +9,14 @@ AUTHOR_ID = "A5086452643"
 EMAIL = "niko.sirbiladze@gmail.com"
 OUTPUT_PATH = "publications/publications.yml"
 EXTRA_PUB_IDS = ["W3209642529", "W3131396636"]
-EXCLUDE_KEYWORDS = [
-    "Author Correction",
-    "How Variable Are Our Rat",  # conference proceedings
-    # preprints that have been subsequently published
-    # in a journal under a different title
-    "StandardRat",
-    "Preserving functional network structure under anesthesia",
-    "Circuits in the absence of cortical layers",
-    "multi-center rat sensory-evoked",
+EXCLUDE_PUB_IDS = [
+    "W4415270455",
+    "W4404748886",
+    "W4416049832",
+    "W4225151746",
+    "W4388895511",
+    "W4402973064",
+    "W3016474949",
 ]
 
 
@@ -77,6 +76,14 @@ def extract_author_info(authorships: List[Dict]) -> Dict:
             author_info["my_affiliations"] = [
                 aff["display_name"] for aff in authorship["institutions"]
             ]
+
+    # If my author ID was not found, my position was > len(authorships)
+    # so set default values
+    if "my_position" not in author_info:
+        author_info["my_position"] = 999
+        author_info["me_first_author"] = False
+        author_info["me_corresponding"] = False
+        author_info["my_affiliations"] = ["Unknown"]
 
     return author_info
 
@@ -150,8 +157,10 @@ def process_pubs(pubs: List[Dict]) -> List[Dict]:
     processed_pubs = []
 
     for pub in pubs:
-        # Exclude publications with certain keywords in the title
-        if any(kw in pub["title"] for kw in EXCLUDE_KEYWORDS):
+        # Exclude certain publications by ID
+        pub_id = pub["id"].split("/")[-1]
+        if pub_id in EXCLUDE_PUB_IDS:
+            print(f"Excluding publication {pub['id']} as per exclusion list.")
             continue
 
         # If the author list is truncated, fetch work with the full author list
