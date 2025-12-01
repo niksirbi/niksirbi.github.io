@@ -31,6 +31,8 @@ website:
         href: https://neuromatch.social/@niksirbi
       - text: "{{< iconify simple-icons bluesky >}}"
         href: https://bsky.app/profile/nikosirmpilatze.com
+      - text: "{{< iconify simple-icons orcid >}}"
+        href: https://orcid.org/0000-0003-1778-2427
 
 format:
   html:
