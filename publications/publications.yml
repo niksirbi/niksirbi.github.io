@@ -16,28 +16,28 @@
   title: Spatial signatures of anesthesia-induced burst-suppression differ between
     primates and rodents
   subtitle: eLife
-  date: '2022-05-24'
+  date: '2022-05-04'
   author: Nikoloz Sirmpilatze et al.
-  description: '20'
+  description: '34'
 - path: https://doi.org/10.1038/s41598-019-53144-y
   title: Temporal stability of fMRI in medetomidine-anesthetized rats
   subtitle: Scientific Reports
   date: '2019-11-13'
   author: Nikoloz Sirmpilatze et al.
-  description: '45'
+  description: '55'
 - path: https://doi.org/10.1162/imag_a_00230
   title: An anesthetic protocol for preserving functional network structure in the
     marmoset monkey brain
   subtitle: Imaging Neuroscience
   date: '2024-01-01'
   author: Michael Ortiz-Rios, Nikoloz Sirmpilatze et al.
-  description: '15'
+  description: '21'
 - path: https://doi.org/10.1016/j.neuroimage.2020.117519
   title: A collaborative resource platform for non-human primate neuroimaging
   subtitle: NeuroImage
   date: '2020-11-20'
   author: Adam Messinger, Nikoloz Sirmpilatze et al.
-  description: '53'
+  description: '54'
 - path: https://doi.org/10.1101/2024.03.06.583699
   title: 'NeuralPlayground: A Standardised Environment for Evaluating Models of Hippocampus
     and Entorhinal Cortex'
@@ -58,32 +58,32 @@
   subtitle: Cerebral Cortex
   date: '2020-09-02'
   author: Georg Hafner et al.
-  description: '7'
+  description: '8'
 - path: https://doi.org/10.1016/j.neuron.2019.12.023
   title: Accelerating the Evolution of Nonhuman Primate Neuroimaging
   subtitle: Neuron
   date: '2020-02-01'
   author: Michael P. Milham et al.
-  description: '120'
+  description: '122'
 - path: https://doi.org/10.1038/s41593-023-01286-8
   title: A consensus protocol for functional connectivity analysis in the rat brain
   subtitle: Nature Neuroscience
   date: '2023-03-27'
   author: Joanes Grandjean et al.
-  description: '86'
+  description: '102'
 - path: https://doi.org/10.1016/j.neuron.2021.10.015
   title: 'Toward next-generation primate neuroscience: A collaboration-based strategic
     plan for integrative neuroimaging'
   subtitle: Neuron
   date: '2021-11-03'
   author: Michael P. Milham et al.
-  description: '41'
+  description: '43'
 - path: https://doi.org/10.1016/j.neuron.2021.04.001
   title: 'Brainhack: Developing a culture of open, inclusive, community-driven neuroscience'
   subtitle: Neuron
   date: '2021-04-30'
   author: "R\xE9mi Gau et al."
-  description: '46'
+  description: '51'
 - path: https://doi.org/10.1162/imag.a.157
   title: Activation mapping in multi-center retrospective rat sensory-evoked functional
     MRI datasets using a unified pipeline
