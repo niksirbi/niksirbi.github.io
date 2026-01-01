@@ -18,7 +18,7 @@
   subtitle: eLife
   date: '2022-05-04'
   author: Nikoloz Sirmpilatze et al.
-  description: '34'
+  description: '35'
 - path: https://doi.org/10.1038/s41598-019-53144-y
   title: Temporal stability of fMRI in medetomidine-anesthetized rats
   subtitle: Scientific Reports
@@ -70,14 +70,14 @@
   subtitle: Nature Neuroscience
   date: '2023-03-27'
   author: Joanes Grandjean et al.
-  description: '102'
+  description: '105'
 - path: https://doi.org/10.1016/j.neuron.2021.10.015
   title: 'Toward next-generation primate neuroscience: A collaboration-based strategic
     plan for integrative neuroimaging'
   subtitle: Neuron
   date: '2021-11-03'
   author: Michael P. Milham et al.
-  description: '43'
+  description: '45'
 - path: https://doi.org/10.1016/j.neuron.2021.04.001
   title: 'Brainhack: Developing a culture of open, inclusive, community-driven neuroscience'
   subtitle: Neuron
