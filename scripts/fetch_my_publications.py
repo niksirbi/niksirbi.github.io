@@ -1,3 +1,11 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#   "pyalex",
+#   "pyyaml",
+# ]
+# ///
+
 import os
 import yaml
 import pyalex

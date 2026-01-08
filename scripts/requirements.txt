@@ -1,2 +1,0 @@
-pyalex
-pre-commit
