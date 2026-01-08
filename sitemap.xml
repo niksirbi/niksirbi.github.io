@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.nikosirmpilatze.com/talks/index.html</loc>
-    <lastmod>2026-01-08T19:54:10.126Z</lastmod>
+    <lastmod>2026-01-08T20:06:04.793Z</lastmod>
   </url>
   <url>
-    <loc>https://www.nikosirmpilatze.com/blog/index.html</loc>
-    <lastmod>2026-01-08T19:54:10.115Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.nikosirmpilatze.com/projects/index.html</loc>
-    <lastmod>2026-01-08T19:54:10.116Z</lastmod>
+    <loc>https://www.nikosirmpilatze.com/CLAUDE.html</loc>
+    <lastmod>2026-01-08T20:06:04.781Z</lastmod>
   </url>
   <url>
     <loc>https://www.nikosirmpilatze.com/index.html</loc>
-    <lastmod>2026-01-08T19:54:10.116Z</lastmod>
+    <lastmod>2026-01-08T20:06:04.782Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.nikosirmpilatze.com/projects/index.html</loc>
+    <lastmod>2026-01-08T20:06:04.782Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.nikosirmpilatze.com/blog/index.html</loc>
+    <lastmod>2026-01-08T20:06:04.782Z</lastmod>
   </url>
   <url>
     <loc>https://www.nikosirmpilatze.com/publications/index.html</loc>
-    <lastmod>2026-01-08T19:54:10.116Z</lastmod>
+    <lastmod>2026-01-08T20:06:04.782Z</lastmod>
   </url>
 </urlset>
