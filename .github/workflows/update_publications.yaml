@@ -34,5 +34,5 @@ jobs:
             This PR updates the publications list using the OpenAlex API.
             Triggered by the monthly schedule or manual dispatch.
           branch: update-publications
-          author: "Niko Sirbiladze <niko.sirbiladze@gmail.com>"
+          author: "Niko Sirmpilatze <niko.sirbiladze@gmail.com>"
           delete-branch: true
