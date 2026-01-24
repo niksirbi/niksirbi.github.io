@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: build
+  render:
+    - "*.qmd"
+    - "!CLAUDE.md"
   resources:
     - static/fonts/**
     - CNAME           # ensures custom‑domain file lands in gh‑pages root
