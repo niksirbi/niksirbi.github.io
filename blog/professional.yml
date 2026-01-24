@@ -26,4 +26,17 @@
   title: "Uncharted brains: expanding beyond existing atlases"
   description: "Why and how the BrainGlobe project is moving to build new neuroanatomical atlase."
   categories: [Neuroanatomy]
-
+- path: https://www.software.ac.uk/blog/greater-sum-its-parts-establishing-open-software-week-combining-our-ssi-fellowships
+  author: [Niko Sirmpilatze, Alessandro Felder]
+  date: 2026-01-22
+  image: ../static/img/ssi.png
+  title: "Greater than the sum of its parts — Establishing Open Software Week by combining our SSI fellowships"
+  description: "The story behind the inaugural Neuroinformatics Unit Open Software Week."
+  categories: [Teaching]
+- path: https://www.software.ac.uk/blog/animals-motion-empowering-behavioural-researchers-open-source-tools
+  author: Niko Sirmpilatze
+  date: 2026-01-22
+  image: ../static/img/animals-in-motion.png
+  title: "Animals in Motion: empowering behavioural researchers with open-source tools"
+  description: "An account of the first Animals in Motion workshop in London — an event I organised as part of my SSI Fellowship."
+  categories: [Animal behaviour, Teaching]
