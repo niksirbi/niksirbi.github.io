@@ -9,6 +9,7 @@ listing:
     fields: [date, title, subtitle, categories, description]
     field-display-names:
         subtitle: "Venue"
+        categories: "Format"
 page-layout: full
 toc: true
 toc-location: right

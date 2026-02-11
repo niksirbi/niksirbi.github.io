@@ -4,39 +4,46 @@
   image: ../static/img/movement.png
   title: Release v0.0.21 and next steps
   description: "The inaugaural blogpost for `movement`, containing a summary of the v0.0.21 release and a preview of what's coming next in 2025."
-  categories: [Animal behaviour]
+  categories: [neuroinformatics.dev]
 - path: https://neuroinformatics.dev/blog/datashuttle.html
   author: [Joe Ziminski, Niko Sirmpilatze]
   date: 2024-05-07
   image: ../static/img/datashuttle.png
   title: Managing neuroscience projects with datashuttle
   description: "Create, validate and transfer standardised project folders."
-  categories: [Data management]
+  categories: [neuroinformatics.dev]
 - path: https://neuroinformatics.dev/blog/neuroblueprint.html
   author: [Niko Sirmpilatze, Joe Ziminski]
   date: 2024-05-02
   image: ../static/img/neuroblueprint.png
   title: Data organisation with NeuroBlueprint
   description: "Addressing the challenge of unstandardised data in systems neuroscience."
-  categories: [Data management]
+  categories: [neuroinformatics.dev]
 - path: https://brainglobe.info/blog/uncharted-brains.html
   author: Niko Sirmpilatze
   date: 2025-03-17
   image: ../static/img/template-builder.png
   title: "Uncharted brains: expanding beyond existing atlases"
   description: "Why and how the BrainGlobe project is moving to build new neuroanatomical atlase."
-  categories: [Neuroanatomy]
+  categories: [brainglobe.info]
 - path: https://www.software.ac.uk/blog/greater-sum-its-parts-establishing-open-software-week-combining-our-ssi-fellowships
   author: [Niko Sirmpilatze, Alessandro Felder]
   date: 2026-01-22
   image: ../static/img/ssi.png
   title: "Greater than the sum of its parts — Establishing Open Software Week by combining our SSI fellowships"
   description: "The story behind the inaugural Neuroinformatics Unit Open Software Week."
-  categories: [Teaching]
+  categories: [software.ac.uk]
 - path: https://www.software.ac.uk/blog/animals-motion-empowering-behavioural-researchers-open-source-tools
   author: Niko Sirmpilatze
   date: 2026-01-22
   image: ../static/img/animals-in-motion.png
   title: "Animals in Motion: empowering behavioural researchers with open-source tools"
   description: "An account of the first Animals in Motion workshop in London — an event I organised as part of my SSI Fellowship."
-  categories: [Animal behaviour, Teaching]
+  categories: [software.ac.uk]
+- path: https://neuroinformatics.dev/blog/trusted-by-design_intro.html
+  author: Niko Sirmpilatze
+  date: 2026-01-28
+  image: null
+  title: "Trusted by design: set up your research software for community adoption"
+  description: "A 3-part blog series, written as a companion to my talk at the FOSDEM 2026 Open Research devroom."
+  categories: [neuroinformatics.dev]

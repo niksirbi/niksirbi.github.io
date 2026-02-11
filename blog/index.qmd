@@ -2,11 +2,13 @@
 title: "Blogposts"
 listing:
   - id: professional
-    type: default
+    type: table
     contents: professional.yml
     sort: "date desc"
     categories: true
-    fields: [image, date, author, title, categories, description]
+    fields: [date, author, title, categories, description]
+    field-display-names:
+        categories: "Website"
     feed: true
 page-layout: full
 toc: false
