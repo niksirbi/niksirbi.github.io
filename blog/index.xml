@@ -15,14 +15,22 @@
 <link>https://www.nikosirmpilatze.com/blog/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Thu, 22 Jan 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 28 Jan 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Trusted by design: set up your research software for community adoption</title>
+  <link>https://www.nikosirmpilatze.com/</link>
+  <description>A 3-part blog series, written as a companion to my talk at the FOSDEM 2026 Open Research devroom.</description>
+  <category>neuroinformatics.dev</category>
+  <guid>https://www.nikosirmpilatze.com/</guid>
+  <pubDate>Wed, 28 Jan 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Greater than the sum of its parts — Establishing Open Software Week by combining our SSI fellowships</title>
   <dc:creator>Niko Sirmpilatze</dc:creator>
   <dc:creator>Alessandro Felder</dc:creator>
   <link>https://www.nikosirmpilatze.com/</link>
   <description>The story behind the inaugural Neuroinformatics Unit Open Software Week.</description>
-  <category>Teaching</category>
+  <category>software.ac.uk</category>
   <guid>https://www.nikosirmpilatze.com/</guid>
   <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
   <media:content url="https://www.nikosirmpilatze.com/../static/img/ssi.png" medium="image" type="image/png"/>
@@ -31,8 +39,7 @@
   <title>Animals in Motion: empowering behavioural researchers with open-source tools</title>
   <link>https://www.nikosirmpilatze.com/</link>
   <description>An account of the first Animals in Motion workshop in London — an event I organised as part of my SSI Fellowship.</description>
-  <category>Animal behaviour</category>
-  <category>Teaching</category>
+  <category>software.ac.uk</category>
   <guid>https://www.nikosirmpilatze.com/</guid>
   <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
   <media:content url="https://www.nikosirmpilatze.com/../static/img/animals-in-motion.png" medium="image" type="image/png"/>
@@ -41,7 +48,7 @@
   <title>Uncharted brains: expanding beyond existing atlases</title>
   <link>https://www.nikosirmpilatze.com/</link>
   <description>Why and how the BrainGlobe project is moving to build new neuroanatomical atlase.</description>
-  <category>Neuroanatomy</category>
+  <category>brainglobe.info</category>
   <guid>https://www.nikosirmpilatze.com/</guid>
   <pubDate>Mon, 17 Mar 2025 00:00:00 GMT</pubDate>
   <media:content url="https://www.nikosirmpilatze.com/../static/img/template-builder.png" medium="image" type="image/png"/>
@@ -50,7 +57,7 @@
   <title>Release v0.0.21 and next steps</title>
   <link>https://www.nikosirmpilatze.com/</link>
   <description>The inaugaural blogpost for `movement`, containing a summary of the v0.0.21 release and a preview of what&#39;s coming next in 2025.</description>
-  <category>Animal behaviour</category>
+  <category>neuroinformatics.dev</category>
   <guid>https://www.nikosirmpilatze.com/</guid>
   <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
   <media:content url="https://www.nikosirmpilatze.com/../static/img/movement.png" medium="image" type="image/png"/>
@@ -61,7 +68,7 @@
   <dc:creator>Niko Sirmpilatze</dc:creator>
   <link>https://www.nikosirmpilatze.com/</link>
   <description>Create, validate and transfer standardised project folders.</description>
-  <category>Data management</category>
+  <category>neuroinformatics.dev</category>
   <guid>https://www.nikosirmpilatze.com/</guid>
   <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
   <media:content url="https://www.nikosirmpilatze.com/../static/img/datashuttle.png" medium="image" type="image/png"/>
@@ -72,7 +79,7 @@
   <dc:creator>Joe Ziminski</dc:creator>
   <link>https://www.nikosirmpilatze.com/</link>
   <description>Addressing the challenge of unstandardised data in systems neuroscience.</description>
-  <category>Data management</category>
+  <category>neuroinformatics.dev</category>
   <guid>https://www.nikosirmpilatze.com/</guid>
   <pubDate>Thu, 02 May 2024 00:00:00 GMT</pubDate>
   <media:content url="https://www.nikosirmpilatze.com/../static/img/neuroblueprint.png" medium="image" type="image/png"/>

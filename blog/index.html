@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-author','listing-title','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-author','listing-title','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-author","listing-date","listing-image","listing-title","listing-description","listing-categories"],
     };
@@ -138,10 +138,8 @@ window.Quarto = {
 
 <link rel="alternate" type="application/rss+xml" title="Niko Sirmpilatze" href="index.xml" data-external="1"><meta property="og:title" content="Blogposts – Niko Sirmpilatze">
 <meta property="og:description" content="Niko Sirmpilatze’s personal website">
-<meta property="og:image" content="https://www.nikosirmpilatze.com/static/img/ssi.png">
+<meta property="og:image" content="https://www.nikosirmpilatze.com//static/img/headshot.jpg">
 <meta property="og:site_name" content="Niko Sirmpilatze">
-<meta property="og:image:height" content="513">
-<meta property="og:image:width" content="901">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -381,7 +379,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QW5pbWFsJTIwYmVoYXZpb3Vy">Animal behaviour <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RGF0YSUyMG1hbmFnZW1lbnQ=">Data management <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TmV1cm9hbmF0b215">Neuroanatomy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVhY2hpbmc=">Teaching <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="YnJhaW5nbG9iZS5pbmZv">brainglobe.info <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV1cm9pbmZvcm1hdGljcy5kZXY=">neuroinformatics.dev <span class="quarto-category-count">(4)</span></div><div class="category" data-category="c29mdHdhcmUuYWMudWs=">software.ac.uk <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -406,191 +404,201 @@ window.Quarto = {
 
 
 <p>Posts I have (co-)authored in my professional capacity. Each entry links to an external website.</p>
-<div id="listing-professional" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="VGVhY2hpbmc=" data-listing-date-sort="1769040000000">
-<div class="thumbnail"><a href="https://www.software.ac.uk/blog/greater-sum-its-parts-establishing-open-software-week-combining-our-ssi-fellowships" class="no-external">
+<div id="listing-professional" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-professional-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-professional'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-description" data-direction="asc">
+        Description
+      </option>
+      <option value="listing-categories" data-direction="asc">
+        Website
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
 
-<img loading="lazy" src="../static/img/ssi.png" class="thumbnail-image">
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://www.software.ac.uk/blog/greater-sum-its-parts-establishing-open-software-week-combining-our-ssi-fellowships" class="no-external">Greater than the sum of its parts — Establishing Open Software Week by combining our SSI fellowships</a>
-</h3>
-<div class="listing-categories">
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('VGVhY2hpbmc='); return false;">Teaching</div>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
 
-</div>
-<div class="delink listing-description"><a href="https://www.software.ac.uk/blog/greater-sum-its-parts-establishing-open-software-week-combining-our-ssi-fellowships" class="no-external">
-<p>The story behind the inaugural Neuroinformatics Unit Open Software Week.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://www.software.ac.uk/blog/greater-sum-its-parts-establishing-open-software-week-combining-our-ssi-fellowships" class="no-external">
-<div class="listing-date">
-Jan 22, 2026
-</div>
-<div class="listing-author">
-Niko Sirmpilatze, Alessandro Felder
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="QW5pbWFsJTIwYmVoYXZpb3VyJTJDVGVhY2hpbmc=" data-listing-date-sort="1769040000000">
-<div class="thumbnail"><a href="https://www.software.ac.uk/blog/animals-motion-empowering-behavioural-researchers-open-source-tools" class="no-external">
+<th>
+<a class="sort" data-sort="listing-categories" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Website</a>
+</th>
 
-<img loading="lazy" src="../static/img/animals-in-motion.png" class="thumbnail-image">
+<th>
+<a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Description</a>
+</th>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://www.software.ac.uk/blog/animals-motion-empowering-behavioural-researchers-open-source-tools" class="no-external">Animals in Motion: empowering behavioural researchers with open-source tools</a>
-</h3>
-<div class="listing-categories">
+</tr>
+</thead>
+<tbody class="list">
 
-<div class="listing-category" onclick="window.quartoListingCategory('QW5pbWFsJTIwYmVoYXZpb3Vy'); return false;">Animal behaviour</div>
+<tr data-index="0" data-categories="bmV1cm9pbmZvcm1hdGljcy5kZXY=" data-listing-date-sort="1769558400000" data-listing-title-sort="Trusted by design: set up your research software for community adoption">
+<td>
+<span class="listing-date">Jan 28, 2026</span>
+</td>
+<td>
+<span class="listing-author">Niko Sirmpilatze</span>
+</td>
+<td>
+<a href="https://neuroinformatics.dev/blog/trusted-by-design_intro.html" class="title listing-title">Trusted by design: set up your research software for community adoption</a>
+</td>
+<td>
+<span class="listing-categories">neuroinformatics.dev</span>
+</td>
+<td>
+<span class="listing-description">A 3-part blog series, written as a companion to my talk at the FOSDEM 2026 Open Research devroom.</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('VGVhY2hpbmc='); return false;">Teaching</div>
+</tr>
 
-</div>
-<div class="delink listing-description"><a href="https://www.software.ac.uk/blog/animals-motion-empowering-behavioural-researchers-open-source-tools" class="no-external">
-<p>An account of the first Animals in Motion workshop in London — an event I organised as part of my SSI Fellowship.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://www.software.ac.uk/blog/animals-motion-empowering-behavioural-researchers-open-source-tools" class="no-external">
-<div class="listing-date">
-Jan 22, 2026
-</div>
-<div class="listing-author">
-Niko Sirmpilatze
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TmV1cm9hbmF0b215" data-listing-date-sort="1742169600000">
-<div class="thumbnail"><a href="https://brainglobe.info/blog/uncharted-brains.html" class="no-external">
+<tr data-index="1" data-categories="c29mdHdhcmUuYWMudWs=" data-listing-date-sort="1769040000000" data-listing-title-sort="Greater than the sum of its parts — Establishing Open Software Week by combining our SSI fellowships">
+<td>
+<span class="listing-date">Jan 22, 2026</span>
+</td>
+<td>
+<span class="listing-author">Niko Sirmpilatze, Alessandro Felder</span>
+</td>
+<td>
+<a href="https://www.software.ac.uk/blog/greater-sum-its-parts-establishing-open-software-week-combining-our-ssi-fellowships" class="title listing-title">Greater than the sum of its parts — Establishing Open Software Week by combining our SSI fellowships</a>
+</td>
+<td>
+<span class="listing-categories">software.ac.uk</span>
+</td>
+<td>
+<span class="listing-description">The story behind the inaugural Neuroinformatics Unit Open Software Week.</span>
+</td>
 
-<img loading="lazy" src="../static/img/template-builder.png" class="thumbnail-image">
+</tr>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://brainglobe.info/blog/uncharted-brains.html" class="no-external">Uncharted brains: expanding beyond existing atlases</a>
-</h3>
-<div class="listing-categories">
+<tr data-index="2" data-categories="c29mdHdhcmUuYWMudWs=" data-listing-date-sort="1769040000000" data-listing-title-sort="Animals in Motion: empowering behavioural researchers with open-source tools">
+<td>
+<span class="listing-date">Jan 22, 2026</span>
+</td>
+<td>
+<span class="listing-author">Niko Sirmpilatze</span>
+</td>
+<td>
+<a href="https://www.software.ac.uk/blog/animals-motion-empowering-behavioural-researchers-open-source-tools" class="title listing-title">Animals in Motion: empowering behavioural researchers with open-source tools</a>
+</td>
+<td>
+<span class="listing-categories">software.ac.uk</span>
+</td>
+<td>
+<span class="listing-description">An account of the first Animals in Motion workshop in London — an event I organised as part of my SSI Fellowship.</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('TmV1cm9hbmF0b215'); return false;">Neuroanatomy</div>
+</tr>
 
-</div>
-<div class="delink listing-description"><a href="https://brainglobe.info/blog/uncharted-brains.html" class="no-external">
-<p>Why and how the BrainGlobe project is moving to build new neuroanatomical atlase.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://brainglobe.info/blog/uncharted-brains.html" class="no-external">
-<div class="listing-date">
-Mar 17, 2025
-</div>
-<div class="listing-author">
-Niko Sirmpilatze
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="QW5pbWFsJTIwYmVoYXZpb3Vy" data-listing-date-sort="1733356800000">
-<div class="thumbnail"><a href="https://movement.neuroinformatics.dev/blog/movement-v0_0_21.html" class="no-external">
+<tr data-index="3" data-categories="YnJhaW5nbG9iZS5pbmZv" data-listing-date-sort="1742169600000" data-listing-title-sort="Uncharted brains: expanding beyond existing atlases">
+<td>
+<span class="listing-date">Mar 17, 2025</span>
+</td>
+<td>
+<span class="listing-author">Niko Sirmpilatze</span>
+</td>
+<td>
+<a href="https://brainglobe.info/blog/uncharted-brains.html" class="title listing-title">Uncharted brains: expanding beyond existing atlases</a>
+</td>
+<td>
+<span class="listing-categories">brainglobe.info</span>
+</td>
+<td>
+<span class="listing-description">Why and how the BrainGlobe project is moving to build new neuroanatomical atlase.</span>
+</td>
 
-<img loading="lazy" src="../static/img/movement.png" class="thumbnail-image">
+</tr>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://movement.neuroinformatics.dev/blog/movement-v0_0_21.html" class="no-external">Release v0.0.21 and next steps</a>
-</h3>
-<div class="listing-categories">
+<tr data-index="4" data-categories="bmV1cm9pbmZvcm1hdGljcy5kZXY=" data-listing-date-sort="1733356800000" data-listing-title-sort="Release v0.0.21 and next steps">
+<td>
+<span class="listing-date">Dec 5, 2024</span>
+</td>
+<td>
+<span class="listing-author">Niko Sirmpilatze</span>
+</td>
+<td>
+<a href="https://movement.neuroinformatics.dev/blog/movement-v0_0_21.html" class="title listing-title">Release v0.0.21 and next steps</a>
+</td>
+<td>
+<span class="listing-categories">neuroinformatics.dev</span>
+</td>
+<td>
+<span class="listing-description">The inaugaural blogpost for <code>movement</code>, containing a summary of the v0.0.21 release and a preview of what’s coming next in 2025.</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('QW5pbWFsJTIwYmVoYXZpb3Vy'); return false;">Animal behaviour</div>
+</tr>
 
-</div>
-<div class="delink listing-description"><a href="https://movement.neuroinformatics.dev/blog/movement-v0_0_21.html" class="no-external">
-<p>The inaugaural blogpost for <code>movement</code>, containing a summary of the v0.0.21 release and a preview of what’s coming next in 2025.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://movement.neuroinformatics.dev/blog/movement-v0_0_21.html" class="no-external">
-<div class="listing-date">
-Dec 5, 2024
-</div>
-<div class="listing-author">
-Niko Sirmpilatze
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="RGF0YSUyMG1hbmFnZW1lbnQ=" data-listing-date-sort="1715040000000">
-<div class="thumbnail"><a href="https://neuroinformatics.dev/blog/datashuttle.html" class="no-external">
+<tr data-index="5" data-categories="bmV1cm9pbmZvcm1hdGljcy5kZXY=" data-listing-date-sort="1715040000000" data-listing-title-sort="Managing neuroscience projects with datashuttle">
+<td>
+<span class="listing-date">May 7, 2024</span>
+</td>
+<td>
+<span class="listing-author">Joe Ziminski, Niko Sirmpilatze</span>
+</td>
+<td>
+<a href="https://neuroinformatics.dev/blog/datashuttle.html" class="title listing-title">Managing neuroscience projects with datashuttle</a>
+</td>
+<td>
+<span class="listing-categories">neuroinformatics.dev</span>
+</td>
+<td>
+<span class="listing-description">Create, validate and transfer standardised project folders.</span>
+</td>
 
-<img loading="lazy" src="../static/img/datashuttle.png" class="thumbnail-image">
+</tr>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://neuroinformatics.dev/blog/datashuttle.html" class="no-external">Managing neuroscience projects with datashuttle</a>
-</h3>
-<div class="listing-categories">
+<tr data-index="6" data-categories="bmV1cm9pbmZvcm1hdGljcy5kZXY=" data-listing-date-sort="1714608000000" data-listing-title-sort="Data organisation with NeuroBlueprint">
+<td>
+<span class="listing-date">May 2, 2024</span>
+</td>
+<td>
+<span class="listing-author">Niko Sirmpilatze, Joe Ziminski</span>
+</td>
+<td>
+<a href="https://neuroinformatics.dev/blog/neuroblueprint.html" class="title listing-title">Data organisation with NeuroBlueprint</a>
+</td>
+<td>
+<span class="listing-categories">neuroinformatics.dev</span>
+</td>
+<td>
+<span class="listing-description">Addressing the challenge of unstandardised data in systems neuroscience.</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMG1hbmFnZW1lbnQ='); return false;">Data management</div>
+</tr>
 
-</div>
-<div class="delink listing-description"><a href="https://neuroinformatics.dev/blog/datashuttle.html" class="no-external">
-<p>Create, validate and transfer standardised project folders.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://neuroinformatics.dev/blog/datashuttle.html" class="no-external">
-<div class="listing-date">
-May 7, 2024
-</div>
-<div class="listing-author">
-Joe Ziminski, Niko Sirmpilatze
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="RGF0YSUyMG1hbmFnZW1lbnQ=" data-listing-date-sort="1714608000000">
-<div class="thumbnail"><a href="https://neuroinformatics.dev/blog/neuroblueprint.html" class="no-external">
-
-<img loading="lazy" src="../static/img/neuroblueprint.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://neuroinformatics.dev/blog/neuroblueprint.html" class="no-external">Data organisation with NeuroBlueprint</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMG1hbmFnZW1lbnQ='); return false;">Data management</div>
-
-</div>
-<div class="delink listing-description"><a href="https://neuroinformatics.dev/blog/neuroblueprint.html" class="no-external">
-<p>Addressing the challenge of unstandardised data in systems neuroscience.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://neuroinformatics.dev/blog/neuroblueprint.html" class="no-external">
-<div class="listing-date">
-May 2, 2024
-</div>
-<div class="listing-author">
-Niko Sirmpilatze, Joe Ziminski
-</div>
-</a>
-</div>
-</div>
-</div>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
