@@ -96,6 +96,27 @@ def extract_author_info(authorships: List[Dict]) -> Dict:
     return author_info
 
 
+PREPRINT_SERVERS = {
+    "arxiv.org": "arXiv",
+    "biorxiv.org": "bioRxiv",
+    "medrxiv.org": "medRxiv",
+    "psyarxiv.com": "PsyArXiv",
+    "osf.io": "OSF Preprints",
+    "preprints.org": "Preprints.org",
+    "ssrn.com": "SSRN",
+}
+
+
+def _infer_source_name(location: Dict) -> str:
+    """Infer the source name from the location URLs."""
+    for url_field in ("landing_page_url", "pdf_url"):
+        url = (location or {}).get(url_field, "") or ""
+        for domain, name in PREPRINT_SERVERS.items():
+            if domain in url:
+                return name
+    return "Preprint"
+
+
 def format_publication(pub: Dict) -> Dict:
     """Transform publication data into a convenient format,
     by adding extra fields and formatting author information.
@@ -115,8 +136,12 @@ def format_publication(pub: Dict) -> Dict:
 
     # Extract source information
     source = pub["primary_location"]["source"]
-    new_pub["source_type"] = source["type"]
-    new_pub["source_name"] = source["display_name"].split("(")[0].strip()
+    if source is not None:
+        new_pub["source_type"] = source["type"]
+        new_pub["source_name"] = source["display_name"].split("(")[0].strip()
+    else:
+        new_pub["source_type"] = pub.get("type", "unknown")
+        new_pub["source_name"] = _infer_source_name(pub["primary_location"])
 
     return new_pub
 
@@ -170,6 +195,8 @@ def process_pubs(pubs: List[Dict]) -> List[Dict]:
         if pub_id in EXCLUDE_PUB_IDS:
             print(f"Excluding publication {pub['id']} as per exclusion list.")
             continue
+        else:
+            print(f"Processing {pub['id']}...")
 
         # If the author list is truncated, fetch work with the full author list
         if pub.get("is_authors_truncated", False):
