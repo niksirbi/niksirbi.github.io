@@ -2,3 +2,4 @@
 .DS_Store
 .pytest_cache/
 build/
+**/*.quarto_ipynb

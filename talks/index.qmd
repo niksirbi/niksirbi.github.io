@@ -15,8 +15,7 @@ toc-location: right
 toc-title: Type
 ---
 
-A selection of talks I've given, with recordings/slides available
-online.
+A selection of talks I've given, with video recordings and/or slides available online.
 
 :::{#talks}
 :::

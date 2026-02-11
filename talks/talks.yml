@@ -33,3 +33,17 @@
   description: "A high-level overview of the `movement` package."
   image: ../static/img/movement.png
   categories: [Slides]
+- path: https://fosdem.org/2026/schedule/event/9VLSXV-movement-tracks-python/
+  date: 2026-01-31
+  title: "Movement: a Python toolbox for analysing motion tracking data"
+  subtitle: "FOSDEM: Bioinformatics & Computational Biology devroom"
+  description: "A high-level overview of the `movement` package."
+  image: ../static/img/movement.png
+  categories: [Video, Slides]
+- path: https://fosdem.org/2026/schedule/event/VPJH8F-trusted-by-design/
+  date: 2026-02-01
+  title: "Trusted by design: set up your research software for community adoption"
+  subtitle: "FOSDEM: Open Research devroom"
+  description: "I review lessons learnt about getting others to trust your open-source tools."
+  image: null
+  categories: [Video, Slides]
