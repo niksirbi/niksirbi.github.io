@@ -25,6 +25,8 @@ EXCLUDE_PUB_IDS = [
     "W4388895511",
     "W4402973064",
     "W3016474949",
+    "W3209642529",
+    "W4408279592",
 ]
 
 
@@ -237,7 +239,8 @@ def update_yaml(pubs: List[Dict], output_path: str):
             "description": str(pub["cited_by_count"]),
         }
         if pub_dict["path"] in existing_by_doi:
-            # Update existing entry
+            # Update existing entry, but preserve author to allow manual customisation
+            pub_dict.pop("author", None)
             existing_by_doi[pub_dict["path"]].update(pub_dict)
         else:
             # Add new entry

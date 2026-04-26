@@ -5,13 +5,6 @@
   date: '2025-05-23'
   author: Isla Duporge, Sofia Minano et al.
   description: '1'
-- path: https://doi.org/10.1101/2025.03.04.641293
-  title: 'Mapping the magnetoreceptive brain: A 3D digital atlas of the migratory
-    bird Eurasian blackcap ( <i>Sylvia atricapilla</i> )'
-  subtitle: bioRxiv
-  date: '2025-03-10'
-  author: Nikoloz Sirmpilatze et al.
-  description: '0'
 - path: https://doi.org/10.7554/elife.74813
   title: Spatial signatures of anesthesia-induced burst-suppression differ between
     primates and rodents
@@ -70,7 +63,7 @@
   subtitle: Nature Neuroscience
   date: '2023-03-27'
   author: Joanes Grandjean et al.
-  description: '115'
+  description: '119'
 - path: https://doi.org/10.1016/j.neuron.2021.10.015
   title: 'Toward next-generation primate neuroscience: A collaboration-based strategic
     plan for integrative neuroimaging'
@@ -83,7 +76,7 @@
   subtitle: Neuron
   date: '2021-04-30'
   author: "R\xE9mi Gau et al."
-  description: '51'
+  description: '52'
 - path: https://doi.org/10.1162/imag.a.157
   title: Activation mapping in multi-center retrospective rat sensory-evoked functional
     MRI datasets using a unified pipeline
@@ -91,3 +84,10 @@
   date: '2025-01-01'
   author: Marie E Galteau et al.
   description: '1'
+- path: https://doi.org/10.1016/j.cub.2026.03.034
+  title: An open-source three-dimensional digital brain atlas of a migratory bird,
+    the Eurasian blackcap
+  subtitle: Current Biology
+  date: '2026-04-01'
+  author: Nikoloz Sirmpilatze, Alessandro Felder, Dinora Abdulazhanova et al.
+  description: '0'
