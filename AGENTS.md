@@ -104,11 +104,10 @@ The publications workflow has two components:
 - RSS feed is generated at `/blog/index.xml` and linked in the navbar
 
 ### CV System (`cv/`)
-- **HTML page** (`cv/index.qmd`): standard website page with CV sections (profile, current position, education, key projects, skills, publications) and a "Download PDF" button linking to `/cv/cv.pdf`
-- **Typst source** (`cv/cv.qmd`): excluded from the HTML render pass (`!cv/cv.qmd` in `_quarto.yml`); rendered to `build/cv/cv.pdf` by the pre-render script before the main site render
-- **Pre-render script** (`scripts/render_cv_pdf.sh`): runs `quarto render cv/cv.qmd --to typst` automatically before every `quarto render` / `quarto preview`; uses `Source Sans Pro` font (bundled with Quarto's Typst)
-- **Font**: `Source Sans Pro` (confirmed available via `quarto typst fonts`)
-- The download button on the HTML page uses Bootstrap class `.btn.btn-outline-primary` and links to `/cv/cv.pdf`
+- **Typst source** (`cv/cv.qmd`): excluded from the HTML render pass (`!cv/cv.qmd` in `_quarto.yml`); rendered to `build/cv/cv.pdf` by the pre-render script
+- **Pre-render script** (`scripts/render_cv_pdf.sh`): runs `quarto render cv/cv.qmd --to typst` automatically before every `quarto render` / `quarto preview`; uses Barlow TTF from `static/fonts/` via `font-paths`
+- The navbar **CV** link points directly to `/cv/cv.pdf` -- clicking it opens the PDF in the browser
+- There is no separate HTML CV page; the rest of the website (Projects, Publications, Talks, About) serves that purpose
 - `cv/cv.pdf` (source-dir artifact) and `cv/.quarto/` are gitignored
 
 ### Talks System (`talks/`)
