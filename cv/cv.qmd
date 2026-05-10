@@ -10,7 +10,7 @@ format:
 ---
 
 ```{=typst}
-#set document(title: "CV – Niko Sirmpilatze")
+#set document(title: "CV -- Niko Sirmpilatze")
 #set text(font: "Source Sans Pro", size: 11pt)
 #set par(justify: true, leading: 0.65em)
 #show link: underline
@@ -72,7 +72,7 @@ animal motion.
 #entry(
   "Senior Research Software Engineer",
   "Neuroinformatics Unit · Sainsbury Wellcome Centre · Gatsby Computational Neuroscience Unit · University College London",
-  "2022 – present",
+  "2022 -- present",
   location: "London, UK",
 )
 ```
@@ -85,33 +85,33 @@ animal motion.
 ## Education
 
 ```{=typst}
-#entry("PhD in Neuroimaging", [_institution_], "YYYY – YYYY")
+#entry("PhD in Neuroimaging", [_institution_], "YYYY -- YYYY")
 #v(0.5em)
-#entry("Medical Degree (MD)", [_institution_], "YYYY – YYYY")
+#entry("Medical Degree (MD)", [_institution_], "YYYY -- YYYY")
 ```
 
 ## Key Projects
 
 ```{=typst}
-#entry([*movement*], [neuroinformatics.dev], "2023 – present")
+#entry([*movement*], [neuroinformatics.dev], "2023 -- present")
 ```
 Python package for analysing body movements across space and time.
 [movement.neuroinformatics.dev](https://movement.neuroinformatics.dev)
 
 ```{=typst}
-#entry([*Animals in Motion*], [neuroinformatics.dev], "2024 – present")
+#entry([*Animals in Motion*], [neuroinformatics.dev], "2024 -- present")
 ```
 Handbook about open-source tools for tracking animals in videos and quantifying behaviour.
 [animals-in-motion.neuroinformatics.dev](https://animals-in-motion.neuroinformatics.dev/latest/)
 
 ```{=typst}
-#entry([*BrainGlobe*], [brainglobe.info], "2022 – present")
+#entry([*BrainGlobe*], [brainglobe.info], "2022 -- present")
 ```
 Ecosystem of Python tools for neuroanatomy, including atlas creation and registration.
 [brainglobe.info](https://brainglobe.info/)
 
 ```{=typst}
-#entry([*NeuroBlueprint*], [neuroinformatics.dev], "2024 – present")
+#entry([*NeuroBlueprint*], [neuroinformatics.dev], "2024 -- present")
 ```
 Lightweight data specification for systems neuroscience, inspired by BIDS.
 [neuroblueprint.neuroinformatics.dev](https://neuroblueprint.neuroinformatics.dev)
@@ -138,5 +138,5 @@ retrieved from [OpenAlex](https://openalex.org/works?filter=authorships.author.i
 ## Fellowships & Awards
 
 ```{=typst}
-#entry("Fellow", "Software Sustainability Institute (SSI)", "2025 – present")
+#entry("Fellow", "Software Sustainability Institute (SSI)", "2025 -- present")
 ```

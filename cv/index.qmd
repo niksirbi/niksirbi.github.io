@@ -25,7 +25,7 @@ a Python package for analysing animal motion.
 
 ## Current Position
 
-**Senior Research Software Engineer** · 2022 – present · London, UK
+**Senior Research Software Engineer** · 2022 -- present · London, UK
 
 - [Neuroinformatics Unit](https://neuroinformatics.dev/)
 - [Sainsbury Wellcome Centre for Neural Circuits and Behaviour](https://www.sainsburywellcome.org/)
@@ -43,8 +43,8 @@ Responsibilities include:
 
 | Degree | Institution | Year |
 |--------|-------------|------|
-| PhD in Neuroimaging | _institution_ | YYYY – YYYY |
-| Medical Degree (MD) | _institution_ | YYYY – YYYY |
+| PhD in Neuroimaging | _institution_ | YYYY -- YYYY |
+| Medical Degree (MD) | _institution_ | YYYY -- YYYY |
 
 ## Key Projects
 
@@ -88,4 +88,4 @@ Full list available on the [Publications](/publications/index.qmd) page, retriev
 
 | Award | Organisation | Year |
 |-------|-------------|------|
-| SSI Fellow | [Software Sustainability Institute](https://www.software.ac.uk/programmes/fellowship-programme) | 2025 – present |
+| SSI Fellow | [Software Sustainability Institute](https://www.software.ac.uk/programmes/fellowship-programme) | 2025 -- present |
