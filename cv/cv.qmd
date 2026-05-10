@@ -15,7 +15,7 @@ format:
 #set par(justify: true, leading: 0.65em)
 #show link: underline
 
-// ── Heading styles ──────────────────────────────────────────────────────────
+// -- Heading styles ---------------------------------------------------------
 #show heading.where(level: 1): it => {
   set text(size: 20pt, weight: "bold")
   v(0.2em)
@@ -33,7 +33,7 @@ format:
   v(0.3em)
 }
 
-// ── Helper: two-column entry row ────────────────────────────────────────────
+// -- Helper: two-column entry row -------------------------------------------
 #let entry(title, org, date, location: none) = {
   grid(
     columns: (1fr, auto),
@@ -43,15 +43,15 @@ format:
   )
 }
 
-// ── Name & contact header ───────────────────────────────────────────────────
+// -- Name & contact header --------------------------------------------------
 #align(center)[
   #text(size: 24pt, weight: "bold")[Niko Sirmpilatze]
   #v(0.3em)
   #text(size: 12pt)[Senior Research Software Engineer]
   #v(0.4em)
-  #link("mailto:niko@nikosirmpilatze.com")[niko\@nikosirmpilatze.com] ·
-  #link("https://www.nikosirmpilatze.com")[nikosirmpilatze.com] ·
-  #link("https://github.com/niksirbi")[github.com/niksirbi] ·
+  #link("mailto:niko@nikosirmpilatze.com")[niko\@nikosirmpilatze.com] | 
+  #link("https://www.nikosirmpilatze.com")[nikosirmpilatze.com] | 
+  #link("https://github.com/niksirbi")[github.com/niksirbi] | 
   #link("https://orcid.org/0000-0003-1778-2427")[ORCID]
 ]
 #v(1em)
@@ -71,7 +71,7 @@ animal motion.
 ```{=typst}
 #entry(
   "Senior Research Software Engineer",
-  "Neuroinformatics Unit · Sainsbury Wellcome Centre · Gatsby Computational Neuroscience Unit · University College London",
+  "Neuroinformatics Unit | Sainsbury Wellcome Centre | Gatsby Computational Neuroscience Unit | University College London",
   "2022 -- present",
   location: "London, UK",
 )
