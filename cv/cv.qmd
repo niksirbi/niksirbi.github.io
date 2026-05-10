@@ -11,7 +11,7 @@ format:
 ---
 
 ```{=typst}
-#set document(title: "CV -- Niko Sirmpilatze")
+#set document(title: "CV -- Nikoloz Sirmpilatze, MD, PhD")
 #set text(font: "Barlow", size: 11pt)
 #set par(justify: true, leading: 0.65em)
 #show link: underline
@@ -46,9 +46,9 @@ format:
 
 // -- Name & contact header --------------------------------------------------
 #align(center)[
-  #text(size: 24pt, weight: "bold")[Niko Sirmpilatze]
+  #text(size: 24pt, weight: "bold")[Nikoloz (Niko) Sirmpilatze, MD, PhD]
   #v(0.3em)
-  #text(size: 12pt)[Neuroscientist and Research Software Engineer]
+  #text(size: 12pt)[Neuroscientist & Research Software Engineer]
   #v(0.4em)
   #link("mailto:niko@nikosirmpilatze.com")[niko\@nikosirmpilatze.com] | 
   #link("https://www.nikosirmpilatze.com")[nikosirmpilatze.com] | 
