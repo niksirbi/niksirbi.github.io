@@ -42,6 +42,9 @@ files) + an `index.qmd` that renders it as a Quarto listing. Read the existing
 - `build/` is gitignored; deployed automatically to `gh-pages` via CI.
 - `cv/cv.qmd` is excluded from the HTML render pass (see `_quarto.yml`);
   `cv/cv.pdf` and `cv/.quarto/` are gitignored.
+- The CV pre-render script skips Typst compilation if `cv/cv.pdf` is already
+  newer than `cv/cv.qmd`. If you change fonts, styling, or other project config
+  that affects the PDF, force a rebuild with `quarto render cv/cv.qmd --to typst`.
 - `publications/publications.yml` is auto-generated -- edit
   `publications/featured.yml` for manual curation instead.
 - The `.venv/` at the repo root uses Python 3.13; activate with
