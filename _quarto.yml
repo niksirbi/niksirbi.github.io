@@ -3,7 +3,7 @@ project:
   output-dir: build
   render:
     - "*.qmd"
-    - "!CLAUDE.md"
+    - "!AGENTS.md"
   resources:
     - static/fonts/**
     - CNAME           # ensures custom‑domain file lands in gh‑pages root
