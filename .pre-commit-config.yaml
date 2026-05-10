@@ -6,4 +6,11 @@ repos:
     rev: v2.4.1
     hooks:
       - id: codespell
-      
+  - repo: local
+    hooks:
+      - id: no-unicode-gremlins
+        name: No Unicode gremlins
+        language: system
+        entry: .venv/bin/python scripts/check_unicode_gremlins.py
+        types: [text]
+        files: \.(qmd|md|yml|yaml|scss|sh|py|toml)$
