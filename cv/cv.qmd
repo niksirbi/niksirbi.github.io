@@ -78,9 +78,10 @@ animal motion.
 )
 ```
 
-- Lead developer of [movement](https://movement.neuroinformatics.dev), a Python toolbox for analysing animal body movements
-- Core contributor to [BrainGlobe](https://brainglobe.info/), an ecosystem of neuroanatomy tools
-- Building new brain atlases for emerging model organisms via [brainglobe-template-builder](https://github.com/brainglobe/brainglobe-template-builder)
+- Lead developer of [movement](https://movement.neuroinformatics.dev), a Python toolbox for analysing animal body movements across space and time
+- Core contributor to [BrainGlobe](https://brainglobe.info/), including building brain atlases for emerging model organisms
+- Created [Animals in Motion](https://animals-in-motion.neuroinformatics.dev), an open handbook on tools for tracking and quantifying animal behaviour
+- Co-designed [NeuroBlueprint](https://neuroblueprint.neuroinformatics.dev), a lightweight data specification for systems neuroscience
 - Promoting open-source adoption through training workshops for early-career researchers
 
 ## Education
@@ -92,10 +93,6 @@ animal motion.
   [May 2017 -- Sep 2021],
   location: "Goettingen, Germany",
 )
-#v(0.2em)
-- *Thesis:* Functional imaging of the anesthetized brain in primates and rodents
-- *Supervisor:* Prof. Dr. Susann Boretius
-- *Grade:* Summa cum laude
 #v(0.7em)
 #entry(
   [MSc in Neuroscience],
@@ -103,10 +100,6 @@ animal motion.
   [Sep 2015 -- Apr 2017],
   location: "Goettingen, Germany",
 )
-#v(0.2em)
-- *Thesis:* The temporal stability of BOLD fMRI measurements in medetomidine-anesthetized rats
-- *Supervisor:* Prof. Dr. Susann Boretius
-- *Grade:* Excellent (1.1 on a 1.0 -- 5.0 scale)
 #v(0.7em)
 #entry(
   [Doctor of Medicine (MD)],
@@ -114,35 +107,7 @@ animal motion.
   [Oct 2009 -- Jul 2015],
   location: "Thessaloniki, Greece",
 )
-#v(0.2em)
-- *Grade:* 9.45/10, valedictorian of the class of 2015
 ```
-
-## Key Projects
-
-```{=typst}
-#entry([*movement*], [neuroinformatics.dev], "2023 -- present")
-```
-Python package for analysing body movements across space and time.
-[movement.neuroinformatics.dev](https://movement.neuroinformatics.dev)
-
-```{=typst}
-#entry([*Animals in Motion*], [neuroinformatics.dev], "2024 -- present")
-```
-Handbook about open-source tools for tracking animals in videos and quantifying behaviour.
-[animals-in-motion.neuroinformatics.dev](https://animals-in-motion.neuroinformatics.dev/latest/)
-
-```{=typst}
-#entry([*BrainGlobe*], [brainglobe.info], "2022 -- present")
-```
-Ecosystem of Python tools for neuroanatomy, including atlas creation and registration.
-[brainglobe.info](https://brainglobe.info/)
-
-```{=typst}
-#entry([*NeuroBlueprint*], [neuroinformatics.dev], "2024 -- present")
-```
-Lightweight data specification for systems neuroscience, inspired by BIDS.
-[neuroblueprint.neuroinformatics.dev](https://neuroblueprint.neuroinformatics.dev)
 
 ## Skills
 
@@ -203,10 +168,6 @@ retrieved from [OpenAlex](https://openalex.org/works?filter=authorships.author.i
 #entry([Otto Creutzfeldt PhD Award], [IMPRS for Neurosciences], [2022])
 #v(0.4em)
 #entry([Best PhD Thesis Award], [German Primate Center], [2022])
-#v(0.4em)
-#entry([Magna cum Laude Merit Award & Educational Stipend], [27th Annual Meeting of the ISMRM, Montreal], [2019])
-#v(0.4em)
-#entry([Student Support Program], [34th Annual Meeting of the ESMRMB, Barcelona], [2017])
 #v(0.4em)
 #entry([Full MSc Student Scholarship], [German Academic Exchange Service (DAAD)], [2015])
 #v(0.4em)
