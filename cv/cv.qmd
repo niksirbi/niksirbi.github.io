@@ -48,7 +48,7 @@ format:
 #align(center)[
   #text(size: 24pt, weight: "bold")[Niko Sirmpilatze]
   #v(0.3em)
-  #text(size: 12pt)[Senior Research Software Engineer]
+  #text(size: 12pt)[Neuroscientist and Research Software Engineer]
   #v(0.4em)
   #link("mailto:niko@nikosirmpilatze.com")[niko\@nikosirmpilatze.com] | 
   #link("https://www.nikosirmpilatze.com")[nikosirmpilatze.com] | 
