@@ -7,11 +7,12 @@ format:
       x: 2.5cm
       y: 2.5cm
     fontsize: 11pt
+    font-paths: ["../static/fonts"]
 ---
 
 ```{=typst}
 #set document(title: "CV -- Niko Sirmpilatze")
-#set text(font: "Source Sans Pro", size: 11pt)
+#set text(font: "Barlow", size: 11pt)
 #set par(justify: true, leading: 0.65em)
 #show link: underline
 
