@@ -58,31 +58,21 @@ format:
 #v(1em)
 ```
 
-# Profile
-
-Neuroscientist and research software engineer passionate about open, collaborative,
-and reproducible science. I build open-source tools to study brains and the behaviours
-they produce, with a background in medicine and a PhD in neuroimaging. Fellow of the
-Software Sustainability Institute (SSI) and lead developer of
-[movement](https://movement.neuroinformatics.dev), a Python package for analysing
-animal motion.
-
 ## Current Position
 
 ```{=typst}
 #entry(
   "Senior Research Software Engineer",
-  "Neuroinformatics Unit | Sainsbury Wellcome Centre | Gatsby Computational Neuroscience Unit | University College London",
+  "Neuroinformatics Unit | Sainsbury Wellcome Centre | University College London",
   "2022 -- present",
   location: "London, UK",
 )
 ```
 
-- Lead developer of [movement](https://movement.neuroinformatics.dev), a Python toolbox for analysing animal body movements across space and time
+- Lead developer of [movement](https://movement.neuroinformatics.dev), a Python toolbox for analysing animal body movements
 - Core contributor to [BrainGlobe](https://brainglobe.info/), including building brain atlases for emerging model organisms
-- Created [Animals in Motion](https://animals-in-motion.neuroinformatics.dev), an open handbook on tools for tracking and quantifying animal behaviour
 - Co-designed [NeuroBlueprint](https://neuroblueprint.neuroinformatics.dev), a lightweight data specification for systems neuroscience
-- Promoting open-source adoption through training workshops for early-career researchers
+- Promoting open-source adoption through training workshops and open resources, including the [Animals in Motion](https://animals-in-motion.neuroinformatics.dev) handbook
 
 ## Education
 
@@ -115,11 +105,11 @@ animal motion.
 #grid(
   columns: (auto, 1fr),
   gutter: 0.5em,
-  [*Programming*], [Python, Bash, R (basic)],
-  [*Tools & frameworks*], [Git, GitHub Actions, Quarto, Typst, pytest, Sphinx],
-  [*Domains*], [Neuroimaging, animal behaviour, computational neuroanatomy],
+  [*Coding*], [Python, Bash, R (basic)],
+  [*Tools & frameworks*], [Git/GitHub, Scientific Python stack, pytest, Quarto, Sphinx],
+  [*Domains*], [animal behaviour, computational neuroanatomy, neuroimaging, scientific software development],
   [*Practices*], [Open-source development, reproducible research, community building],
-  [*Human languages*], [Greek (native), Georgian (native), English (fluent), German (advanced), Russian (intermediate)],
+  [*Languages*], [Greek (native), Georgian (native), English (fluent), German (advanced), Russian (intermediate)],
 )
 ```
 
