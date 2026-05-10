@@ -81,14 +81,14 @@ format:
   [PhD in Neuroimaging],
   [German Primate Center -- Functional Imaging Lab],
   [May 2017 -- Sep 2021],
-  location: "Goettingen, Germany",
+  location: "Göttingen, Germany",
 )
 #v(0.7em)
 #entry(
   [MSc in Neuroscience],
   [IMPRS for Neurosciences, Georg-August University],
   [Sep 2015 -- Apr 2017],
-  location: "Goettingen, Germany",
+  location: "Göttingen, Germany",
 )
 #v(0.7em)
 #entry(
@@ -120,7 +120,7 @@ format:
   [Student Supervision],
   [Functional Imaging Lab, German Primate Center],
   [2018 -- 2020],
-  location: "Goettingen, Germany",
+  location: "Göttingen, Germany",
 )
 #v(0.2em)
 - Supervised one MSc student (thesis on resting-state connectivity) and two research interns
@@ -129,7 +129,7 @@ format:
   [Teaching Assistant: Introduction to MRI/fMRI],
   [IMPRS for Neurosciences MSc Programme],
   [2017 -- 2019],
-  location: "Goettingen, Germany",
+  location: "Göttingen, Germany",
 )
 #v(0.2em)
 - Gave tutorials and method courses on fMRI acquisition and analysis
