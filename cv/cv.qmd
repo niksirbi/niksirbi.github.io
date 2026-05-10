@@ -86,9 +86,36 @@ animal motion.
 ## Education
 
 ```{=typst}
-#entry("PhD in Neuroimaging", [_institution_], "YYYY -- YYYY")
-#v(0.5em)
-#entry("Medical Degree (MD)", [_institution_], "YYYY -- YYYY")
+#entry(
+  [PhD in Neuroimaging],
+  [German Primate Center -- Functional Imaging Lab],
+  [May 2017 -- Sep 2021],
+  location: "Goettingen, Germany",
+)
+#v(0.2em)
+- *Thesis:* Functional imaging of the anesthetized brain in primates and rodents
+- *Supervisor:* Prof. Dr. Susann Boretius
+- *Grade:* Summa cum laude
+#v(0.7em)
+#entry(
+  [MSc in Neuroscience],
+  [IMPRS for Neurosciences, Georg-August University],
+  [Sep 2015 -- Apr 2017],
+  location: "Goettingen, Germany",
+)
+#v(0.2em)
+- *Thesis:* The temporal stability of BOLD fMRI measurements in medetomidine-anesthetized rats
+- *Supervisor:* Prof. Dr. Susann Boretius
+- *Grade:* Excellent (1.1 on a 1.0 -- 5.0 scale)
+#v(0.7em)
+#entry(
+  [Doctor of Medicine (MD)],
+  [Aristotle University of Thessaloniki],
+  [Oct 2009 -- Jul 2015],
+  location: "Thessaloniki, Greece",
+)
+#v(0.2em)
+- *Grade:* 9.45/10, valedictorian of the class of 2015
 ```
 
 ## Key Projects
@@ -123,11 +150,43 @@ Lightweight data specification for systems neuroscience, inspired by BIDS.
 #grid(
   columns: (auto, 1fr),
   gutter: 0.5em,
-  [*Languages*], [Python, Bash, basic R],
+  [*Programming*], [Python, Bash, R (basic)],
   [*Tools & frameworks*], [Git, GitHub Actions, Quarto, Typst, pytest, Sphinx],
   [*Domains*], [Neuroimaging, animal behaviour, computational neuroanatomy],
   [*Practices*], [Open-source development, reproducible research, community building],
+  [*Human languages*], [Greek (native), Georgian (native), English (fluent), German (advanced), Russian (intermediate)],
 )
+```
+
+## Teaching
+
+```{=typst}
+#entry(
+  [Student Supervision],
+  [Functional Imaging Lab, German Primate Center],
+  [2018 -- 2020],
+  location: "Goettingen, Germany",
+)
+#v(0.2em)
+- Supervised one MSc student (thesis on resting-state connectivity) and two research interns
+#v(0.7em)
+#entry(
+  [Teaching Assistant: Introduction to MRI/fMRI],
+  [IMPRS for Neurosciences MSc Programme],
+  [2017 -- 2019],
+  location: "Goettingen, Germany",
+)
+#v(0.2em)
+- Gave tutorials and method courses on fMRI acquisition and analysis
+#v(0.7em)
+#entry(
+  [Community Teaching Assistant: Medical Neuroscience],
+  [Online course by Duke University (Coursera)],
+  [Jan -- Mar 2013],
+  location: "online",
+)
+#v(0.2em)
+- Monitored student forums and answered questions
 ```
 
 ## Publications
@@ -139,5 +198,17 @@ retrieved from [OpenAlex](https://openalex.org/works?filter=authorships.author.i
 ## Fellowships & Awards
 
 ```{=typst}
-#entry("Fellow", "Software Sustainability Institute (SSI)", "2025 -- present")
+#entry([SSI Fellow], [Software Sustainability Institute], [2025 -- present])
+#v(0.4em)
+#entry([Otto Creutzfeldt PhD Award], [IMPRS for Neurosciences], [2022])
+#v(0.4em)
+#entry([Best PhD Thesis Award], [German Primate Center], [2022])
+#v(0.4em)
+#entry([Magna cum Laude Merit Award & Educational Stipend], [27th Annual Meeting of the ISMRM, Montreal], [2019])
+#v(0.4em)
+#entry([Student Support Program], [34th Annual Meeting of the ESMRMB, Barcelona], [2017])
+#v(0.4em)
+#entry([Full MSc Student Scholarship], [German Academic Exchange Service (DAAD)], [2015])
+#v(0.4em)
+#entry([Undergraduate Distinction & Yearly Stipend], [State Scholarships Foundation of Greece (IKY)], [2010])
 ```

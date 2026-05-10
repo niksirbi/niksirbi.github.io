@@ -41,10 +41,21 @@ Responsibilities include:
 
 ## Education
 
-| Degree | Institution | Year |
-|--------|-------------|------|
-| PhD in Neuroimaging | _institution_ | YYYY -- YYYY |
-| Medical Degree (MD) | _institution_ | YYYY -- YYYY |
+**PhD in Neuroimaging** | German Primate Center -- Functional Imaging Lab, Goettingen | May 2017 -- Sep 2021
+
+- *Thesis:* Functional imaging of the anesthetized brain in primates and rodents
+- *Supervisor:* Prof. Dr. Susann Boretius
+- *Grade:* Summa cum laude
+
+**MSc in Neuroscience** | IMPRS for Neurosciences, Georg-August University, Goettingen | Sep 2015 -- Apr 2017
+
+- *Thesis:* The temporal stability of BOLD fMRI measurements in medetomidine-anesthetized rats
+- *Supervisor:* Prof. Dr. Susann Boretius
+- *Grade:* Excellent (1.1 on a 1.0 -- 5.0 scale)
+
+**Doctor of Medicine (MD)** | Aristotle University of Thessaloniki | Oct 2009 -- Jul 2015
+
+- *Grade:* 9.45/10, valedictorian of the class of 2015
 
 ## Key Projects
 
@@ -74,10 +85,25 @@ Responsibilities include:
 
 | Category | Details |
 |----------|---------|
-| **Languages** | Python, Bash, basic R |
+| **Programming** | Python, Bash, R (basic) |
 | **Tools & frameworks** | Git, GitHub Actions, Quarto, Typst, pytest, Sphinx |
 | **Domains** | Neuroimaging, animal behaviour, computational neuroanatomy |
 | **Practices** | Open-source development, reproducible research, community building |
+| **Human languages** | Greek (native), Georgian (native), English (fluent), German (advanced), Russian (intermediate) |
+
+## Teaching
+
+**Student Supervision** | Functional Imaging Lab, German Primate Center | 2018 -- 2020
+
+- Supervised one MSc student (thesis on resting-state connectivity) and two research interns
+
+**Teaching Assistant: Introduction to MRI/fMRI** | IMPRS for Neurosciences MSc Programme | 2017 -- 2019
+
+- Gave tutorials and method courses on fMRI acquisition and analysis
+
+**Community Teaching Assistant: Medical Neuroscience** | Duke University / Coursera | Jan -- Mar 2013
+
+- Monitored student forums and answered questions
 
 ## Publications
 
@@ -89,3 +115,9 @@ Full list available on the [Publications](/publications/index.qmd) page, retriev
 | Award | Organisation | Year |
 |-------|-------------|------|
 | SSI Fellow | [Software Sustainability Institute](https://www.software.ac.uk/programmes/fellowship-programme) | 2025 -- present |
+| Otto Creutzfeldt PhD Award | IMPRS for Neurosciences | 2022 |
+| Best PhD Thesis Award | German Primate Center | 2022 |
+| Magna cum Laude Merit Award & Educational Stipend | 27th Annual Meeting of the ISMRM, Montreal | 2019 |
+| Student Support Program | 34th Annual Meeting of the ESMRMB, Barcelona | 2017 |
+| Full MSc Student Scholarship | German Academic Exchange Service (DAAD) | 2015 |
+| Undergraduate Distinction & Yearly Stipend | State Scholarships Foundation of Greece (IKY) | 2010 |
