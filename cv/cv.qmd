@@ -1,0 +1,142 @@
+---
+format:
+  typst:
+    output-file: cv.pdf
+    papersize: a4
+    margin:
+      x: 2.5cm
+      y: 2.5cm
+    fontsize: 11pt
+---
+
+```{=typst}
+#set document(title: "CV – Niko Sirmpilatze")
+#set text(font: "Source Sans Pro", size: 11pt)
+#set par(justify: true, leading: 0.65em)
+#show link: underline
+
+// ── Heading styles ──────────────────────────────────────────────────────────
+#show heading.where(level: 1): it => {
+  set text(size: 20pt, weight: "bold")
+  v(0.2em)
+  it.body
+  v(-0.4em)
+  line(length: 100%, stroke: 0.4pt + luma(160))
+  v(0.3em)
+}
+#show heading.where(level: 2): it => {
+  set text(size: 13pt, weight: "bold")
+  v(0.8em)
+  it.body
+  v(0.1em)
+  line(length: 100%, stroke: 0.3pt + luma(200))
+  v(0.3em)
+}
+
+// ── Helper: two-column entry row ────────────────────────────────────────────
+#let entry(title, org, date, location: none) = {
+  grid(
+    columns: (1fr, auto),
+    gutter: 0pt,
+    [*#title* #if org != none [\ #emph(org)]],
+    align(right)[#if location != none [#location \ ] #text(style: "italic")[#date]],
+  )
+}
+
+// ── Name & contact header ───────────────────────────────────────────────────
+#align(center)[
+  #text(size: 24pt, weight: "bold")[Niko Sirmpilatze]
+  #v(0.3em)
+  #text(size: 12pt)[Senior Research Software Engineer]
+  #v(0.4em)
+  #link("mailto:niko@nikosirmpilatze.com")[niko\@nikosirmpilatze.com] ·
+  #link("https://www.nikosirmpilatze.com")[nikosirmpilatze.com] ·
+  #link("https://github.com/niksirbi")[github.com/niksirbi] ·
+  #link("https://orcid.org/0000-0003-1778-2427")[ORCID]
+]
+#v(1em)
+```
+
+# Profile
+
+Neuroscientist and research software engineer passionate about open, collaborative,
+and reproducible science. I build open-source tools to study brains and the behaviours
+they produce, with a background in medicine and a PhD in neuroimaging. Fellow of the
+Software Sustainability Institute (SSI) and lead developer of
+[movement](https://movement.neuroinformatics.dev), a Python package for analysing
+animal motion.
+
+## Current Position
+
+```{=typst}
+#entry(
+  "Senior Research Software Engineer",
+  "Neuroinformatics Unit · Sainsbury Wellcome Centre · Gatsby Computational Neuroscience Unit · University College London",
+  "2022 – present",
+  location: "London, UK",
+)
+```
+
+- Lead developer of [movement](https://movement.neuroinformatics.dev), a Python toolbox for analysing animal body movements
+- Core contributor to [BrainGlobe](https://brainglobe.info/), an ecosystem of neuroanatomy tools
+- Building new brain atlases for emerging model organisms via [brainglobe-template-builder](https://github.com/brainglobe/brainglobe-template-builder)
+- Promoting open-source adoption through training workshops for early-career researchers
+
+## Education
+
+```{=typst}
+#entry("PhD in Neuroimaging", [_institution_], "YYYY – YYYY")
+#v(0.5em)
+#entry("Medical Degree (MD)", [_institution_], "YYYY – YYYY")
+```
+
+## Key Projects
+
+```{=typst}
+#entry([*movement*], [neuroinformatics.dev], "2023 – present")
+```
+Python package for analysing body movements across space and time.
+[movement.neuroinformatics.dev](https://movement.neuroinformatics.dev)
+
+```{=typst}
+#entry([*Animals in Motion*], [neuroinformatics.dev], "2024 – present")
+```
+Handbook about open-source tools for tracking animals in videos and quantifying behaviour.
+[animals-in-motion.neuroinformatics.dev](https://animals-in-motion.neuroinformatics.dev/latest/)
+
+```{=typst}
+#entry([*BrainGlobe*], [brainglobe.info], "2022 – present")
+```
+Ecosystem of Python tools for neuroanatomy, including atlas creation and registration.
+[brainglobe.info](https://brainglobe.info/)
+
+```{=typst}
+#entry([*NeuroBlueprint*], [neuroinformatics.dev], "2024 – present")
+```
+Lightweight data specification for systems neuroscience, inspired by BIDS.
+[neuroblueprint.neuroinformatics.dev](https://neuroblueprint.neuroinformatics.dev)
+
+## Skills
+
+```{=typst}
+#grid(
+  columns: (auto, 1fr),
+  gutter: 0.5em,
+  [*Languages*], [Python, Bash, basic R],
+  [*Tools & frameworks*], [Git, GitHub Actions, Quarto, Typst, pytest, Sphinx],
+  [*Domains*], [Neuroimaging, animal behaviour, computational neuroanatomy],
+  [*Practices*], [Open-source development, reproducible research, community building],
+)
+```
+
+## Publications
+
+Full publication list available at
+[nikosirmpilatze.com/publications](https://www.nikosirmpilatze.com/publications),
+retrieved from [OpenAlex](https://openalex.org/works?filter=authorships.author.id:a5086452643).
+
+## Fellowships & Awards
+
+```{=typst}
+#entry("Fellow", "Software Sustainability Institute (SSI)", "2025 – present")
+```

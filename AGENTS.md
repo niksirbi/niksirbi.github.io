@@ -43,8 +43,12 @@ pre-commit run --all-files    # Run codespell linting
 - `talks/` — Conference and seminar presentations
   - `talks.yml` — Talk entries with date, title, venue (subtitle), and format (categories)
   - `index.qmd` — Table listing
+- `cv/` — Curriculum Vitae
+  - `cv/index.qmd` — HTML CV page rendered as part of the website (profile, positions, education, projects, skills)
+  - `cv/cv.qmd` — Typst source compiled to PDF via pre-render script; **excluded from the HTML render pass**; output: `build/cv/cv.pdf`
 - `scripts/` — Utility scripts
   - `fetch_my_publications.py` — Fetches publications from the OpenAlex API
+  - `render_cv_pdf.sh` — Pre-render script that compiles `cv/cv.qmd` to PDF via Typst (called automatically by `quarto render`)
 - `static/` — Images, fonts, and other static assets
   - `static/img/` — Images used across listings and the homepage
   - `static/fonts/` — Self-hosted `.woff2` font files for Barlow and JetBrains Mono
@@ -53,7 +57,8 @@ pre-commit run --all-files    # Run codespell linting
 ### Configuration
 - `_quarto.yml` — Main Quarto configuration
   - Output directory: `build/` (gitignored; deployed via the `gh-pages` branch)
-  - `AGENTS.md` is explicitly excluded from rendering (`render: ["*.qmd", "!AGENTS.md"]`)
+  - `AGENTS.md` is explicitly excluded from rendering (`render: ["*.qmd", "!AGENTS.md", "!cv/cv.qmd"]`)
+  - `cv/cv.qmd` is excluded from HTML rendering (compiled to PDF via pre-render script instead)
   - `CNAME` and `static/fonts/` are declared as resources so they land in the build output
   - **Navbar (left):** Home, Projects, Blogposts, Publications, Talks
   - **Navbar (right):** GitHub, Mastodon, Bluesky, ORCID (via iconify), RSS feed
@@ -98,6 +103,14 @@ The publications workflow has two components:
 - Table listing with fields: date, author, title, categories (displayed as "Website"), description
 - RSS feed is generated at `/blog/index.xml` and linked in the navbar
 
+### CV System (`cv/`)
+- **HTML page** (`cv/index.qmd`): standard website page with CV sections (profile, current position, education, key projects, skills, publications) and a "Download PDF" button linking to `/cv/cv.pdf`
+- **Typst source** (`cv/cv.qmd`): excluded from the HTML render pass (`!cv/cv.qmd` in `_quarto.yml`); rendered to `build/cv/cv.pdf` by the pre-render script before the main site render
+- **Pre-render script** (`scripts/render_cv_pdf.sh`): runs `quarto render cv/cv.qmd --to typst` automatically before every `quarto render` / `quarto preview`; uses `Source Sans Pro` font (bundled with Quarto's Typst)
+- **Font**: `Source Sans Pro` (confirmed available via `quarto typst fonts`)
+- The download button on the HTML page uses Bootstrap class `.btn.btn-outline-primary` and links to `/cv/cv.pdf`
+- `cv/cv.pdf` (source-dir artifact) and `cv/.quarto/` are gitignored
+
 ### Talks System (`talks/`)
 - `talks.yml` entries include: path (video/slides URL), date, title, subtitle (venue), description, image, categories (format: Video, Slides, etc.)
 - Table listing; `subtitle` displayed as "Venue", `categories` displayed as "Format"
@@ -135,3 +148,5 @@ The publications workflow has two components:
 - The `CNAME` file contains `nikosirmpilatze.com` (without `www`); the canonical site URL in `_quarto.yml` uses `https://www.nikosirmpilatze.com/`
 - A `.venv` directory exists at the repo root (created by `uv`), but the publication script uses PEP 723 inline deps and does not require it to be activated
 - The `templates/` directory is currently empty
+- `cv/cv.pdf` (Typst build artifact in the source tree) and `cv/.quarto/` (Typst package cache) are both gitignored via `.gitignore`
+- To manually render only the CV PDF: `quarto render cv/cv.qmd --to typst`

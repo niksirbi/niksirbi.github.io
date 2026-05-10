@@ -1,9 +1,11 @@
 project:
   type: website
   output-dir: build
+  pre-render: scripts/render_cv_pdf.sh
   render:
     - "*.qmd"
     - "!AGENTS.md"
+    - "!cv/cv.qmd"    # rendered to PDF via pre-render script; excluded from HTML pass
   resources:
     - static/fonts/**
     - CNAME           # ensures custom‑domain file lands in gh‑pages root
@@ -27,6 +29,8 @@ website:
         text: Publications
       - href: talks/index.qmd
         text: Talks
+      - href: cv/index.qmd
+        text: CV
     right:
       - icon: github
         href: https://github.com/niksirbi

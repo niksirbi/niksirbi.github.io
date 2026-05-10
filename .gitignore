@@ -1,5 +1,7 @@
 /.quarto/
+**/.quarto/
 .DS_Store
 .pytest_cache/
 build/
+cv/cv.pdf
 **/*.quarto_ipynb
