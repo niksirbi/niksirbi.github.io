@@ -48,7 +48,7 @@ format:
 #align(center)[
   #text(size: 24pt, weight: "bold")[Nikoloz (Niko) Sirmpilatze, MD, PhD]
   #v(0.3em)
-  #text(size: 12pt)[Neuroscientist & Research Software Engineer]
+  #text(size: 12pt)[Research Software Engineer | Neuroimaging and Behavioural data]
   #v(0.4em)
   #link("mailto:niko@nikosirmpilatze.com")[niko\@nikosirmpilatze.com] | 
   #link("https://www.nikosirmpilatze.com")[nikosirmpilatze.com] | 
@@ -58,12 +58,12 @@ format:
 #v(1em)
 ```
 
-## Current Position
+### Current Position
 
 ```{=typst}
 #entry(
   "Senior Research Software Engineer",
-  "Neuroinformatics Unit | Sainsbury Wellcome Centre | University College London",
+  "Neuroinformatics Unit, Sainsbury Wellcome Centre, UCL",
   "2022 -- present",
   location: "London, UK",
 )
@@ -71,15 +71,30 @@ format:
 
 - Lead developer of [movement](https://movement.neuroinformatics.dev), a Python toolbox for analysing animal body movements
 - Core contributor to [BrainGlobe](https://brainglobe.info/), including building brain atlases for emerging model organisms
+- Promoting open-source adoption through talks, training workshops and open resources, including the [Animals in Motion](https://animals-in-motion.neuroinformatics.dev) handbook
 - Co-designed [NeuroBlueprint](https://neuroblueprint.neuroinformatics.dev), a lightweight data specification for systems neuroscience
-- Promoting open-source adoption through training workshops and open resources, including the [Animals in Motion](https://animals-in-motion.neuroinformatics.dev) handbook
 
-## Education
+### Research Experience
+
+```{=typst}
+#entry(
+  "PhD Candidate, then Postdoctoral Researcher",
+  "Functional Imaging Laboratory, German Primate Center",
+  "2017 -- 2022",
+  location: "Göttingen, Germany",
+)
+```
+
+- Studied brain function under anaesthesia using MRI and microscopy across species
+- Built Python analysis pipelines with open-source neuroimaging tools
+- Contributed to Open Science including [PRIME-DRE](https://prime-dre.github.io) and [brainhack](https://brainhack.org)
+
+### Education
 
 ```{=typst}
 #entry(
   [PhD in Neuroimaging],
-  [German Primate Center -- Functional Imaging Lab],
+  [Functional Imaging Laboratory, German Primate Center],
   [May 2017 -- Sep 2021],
   location: "Göttingen, Germany",
 )
@@ -99,7 +114,7 @@ format:
 )
 ```
 
-## Skills
+### Skills
 
 ```{=typst}
 #grid(
@@ -113,7 +128,7 @@ format:
 )
 ```
 
-## Teaching
+### Community & Teaching
 
 ```{=typst}
 #entry(
@@ -144,22 +159,29 @@ format:
 - Monitored student forums and answered questions
 ```
 
-## Publications
-
-Full publication list available at
-[nikosirmpilatze.com/publications](https://www.nikosirmpilatze.com/publications),
-retrieved from [OpenAlex](https://openalex.org/works?filter=authorships.author.id:a5086452643).
-
-## Fellowships & Awards
+### Fellowships & Awards
 
 ```{=typst}
-#entry([SSI Fellow], [Software Sustainability Institute], [2025 -- present])
-#v(0.4em)
-#entry([Otto Creutzfeldt PhD Award], [IMPRS for Neurosciences], [2022])
-#v(0.4em)
-#entry([Best PhD Thesis Award], [German Primate Center], [2022])
-#v(0.4em)
-#entry([Full MSc Student Scholarship], [German Academic Exchange Service (DAAD)], [2015])
-#v(0.4em)
-#entry([Undergraduate Distinction & Yearly Stipend], [State Scholarships Foundation of Greece (IKY)], [2010])
+#grid(
+  columns: (1fr, 1.2fr, auto),
+  row-gutter: 0.5em,
+  column-gutter: 1em,
+  [*Fellow*], [_Software Sustainability Institute_], [2025],
+  [*Otto Creutzfeldt PhD Award*], [_IMPRS for Neurosciences_], [2022],
+  [*Best PhD Thesis Award*], [_German Primate Center_], [2022],
+  [*Full MSc Student Scholarship*], [_German Academic Exchange Service (DAAD)_], [2015],
+  [*Undergraduate Distinction & Stipend*], [_State Scholarships Foundation of Greece (IKY)_], [2010],
+)
 ```
+
+### Publications
+
+These are selected publications. For a full list, see
+[nikosirmpilatze.com/publications](https://www.nikosirmpilatze.com/publications).
+
+### Talks
+
+These are selected talks. For a full list, see
+[nikosirmpilatze.com/talks](https://www.nikosirmpilatze.com/talks).
+
+
