@@ -14,7 +14,8 @@ format:
 #set document(title: "CV -- Nikoloz Sirmpilatze, MD, PhD")
 #set text(font: "Barlow", size: 11pt)
 #set par(justify: true, leading: 0.65em)
-#show link: underline
+#let accent = rgb("#1b9e77")
+#show link: it => text(style: "italic", fill: accent, it)
 #show strong: it => text(weight: "semibold", it.body)
 
 // -- Heading styles ---------------------------------------------------------
