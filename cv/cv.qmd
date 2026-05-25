@@ -15,10 +15,11 @@ format:
 #set text(font: "Barlow", size: 11pt)
 #set par(justify: true, leading: 0.65em)
 #show link: underline
+#show strong: it => text(weight: "semibold", it.body)
 
 // -- Heading styles ---------------------------------------------------------
 #show heading.where(level: 1): it => {
-  set text(size: 20pt, weight: "bold")
+  set text(size: 20pt, weight: "semibold")
   v(0.2em)
   it.body
   v(-0.4em)
@@ -26,7 +27,7 @@ format:
   v(0.3em)
 }
 #show heading.where(level: 2): it => {
-  set text(size: 13pt, weight: "bold")
+  set text(size: 13pt, weight: "semibold")
   v(0.8em)
   it.body
   v(0.1em)
@@ -46,7 +47,7 @@ format:
 
 // -- Name & contact header --------------------------------------------------
 #align(center)[
-  #text(size: 24pt, weight: "bold")[Nikoloz (Niko) Sirmpilatze, MD, PhD]
+  #text(size: 24pt, weight: "semibold")[Nikoloz (Niko) Sirmpilatze, MD, PhD]
   #v(0.3em)
   #text(size: 12pt)[Research Software Engineer | Neuroimaging and Behavioural data]
   #v(0.4em)
@@ -58,7 +59,7 @@ format:
 #v(1em)
 ```
 
-### Current Position
+## Current Position
 
 ```{=typst}
 #entry(
@@ -74,7 +75,7 @@ format:
 - Promoting open-source adoption through talks, training workshops and open resources, including the [Animals in Motion](https://animals-in-motion.neuroinformatics.dev) handbook
 - Co-designed [NeuroBlueprint](https://neuroblueprint.neuroinformatics.dev), a lightweight data specification for systems neuroscience
 
-### Research Experience
+## Research Experience
 
 ```{=typst}
 #entry(
@@ -89,7 +90,7 @@ format:
 - Built Python analysis pipelines with open-source neuroimaging tools
 - Contributed to Open Science including [PRIME-DRE](https://prime-dre.github.io) and [brainhack](https://brainhack.org)
 
-### Education
+## Education
 
 ```{=typst}
 #entry(
@@ -114,7 +115,7 @@ format:
 )
 ```
 
-### Skills
+## Skills
 
 ```{=typst}
 #grid(
@@ -128,7 +129,7 @@ format:
 )
 ```
 
-### Community & Teaching
+## Community & Teaching
 
 ```{=typst}
 #entry(
@@ -159,7 +160,7 @@ format:
 - Monitored student forums and answered questions
 ```
 
-### Fellowships & Awards
+## Fellowships & Awards
 
 ```{=typst}
 #grid(
@@ -174,12 +175,12 @@ format:
 )
 ```
 
-### Publications
+## Publications
 
 These are selected publications. For a full list, see
 [nikosirmpilatze.com/publications](https://www.nikosirmpilatze.com/publications).
 
-### Talks
+## Talks
 
 These are selected talks. For a full list, see
 [nikosirmpilatze.com/talks](https://www.nikosirmpilatze.com/talks).
