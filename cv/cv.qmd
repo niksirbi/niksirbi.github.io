@@ -77,6 +77,7 @@ format:
 - Co-designed [NeuroBlueprint](https://neuroblueprint.neuroinformatics.dev), a lightweight data specification for systems neuroscience
 
 ```{=typst}
+#v(0.7em)
 #entry(
   "PhD Candidate, then Postdoctoral Researcher",
   "Functional Imaging Laboratory, German Primate Center",
@@ -131,13 +132,32 @@ format:
 
 ```{=typst}
 #entry(
+  [Organiser],
+  [Open Software Summer School],
+  [2025 -- 2026],
+  location: "London, UK",
+)
+#v(0.7em)
+#entry(
+  [Reviewer],
+  [Journal of Open Source Software (JOSS)],
+  [2024 -- 2026],
+  location: "London, UK",
+)
+#v(0.7em)
+#entry(
+  [Mentor],
+  [Google Summer of Code (2026), In2Research (2024)],
+  [2024 -- 2026],
+  location: "London, UK",
+)
+#v(0.7em)
+#entry(
   [Student Supervision],
   [Functional Imaging Lab, German Primate Center],
   [2018 -- 2020],
   location: "Göttingen, Germany",
 )
-#v(0.2em)
-- Supervised one MSc student (thesis on resting-state connectivity) and two research interns
 #v(0.7em)
 #entry(
   [Teaching Assistant: Introduction to MRI/fMRI],
@@ -145,8 +165,6 @@ format:
   [2017 -- 2019],
   location: "Göttingen, Germany",
 )
-#v(0.2em)
-- Gave tutorials and method courses on fMRI acquisition and analysis
 #v(0.7em)
 #entry(
   [Community Teaching Assistant: Medical Neuroscience],
@@ -154,8 +172,6 @@ format:
   [Jan -- Mar 2013],
   location: "online",
 )
-#v(0.2em)
-- Monitored student forums and answered questions
 ```
 
 ## Fellowships & Awards
