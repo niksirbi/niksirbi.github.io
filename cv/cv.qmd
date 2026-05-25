@@ -120,10 +120,9 @@ format:
 #grid(
   columns: (auto, 1fr),
   gutter: 0.5em,
-  [*Coding*], [Python, Bash, R (basic)],
-  [*Tools & frameworks*], [Git/GitHub, Scientific Python stack, pytest, Quarto, Sphinx],
-  [*Domains*], [animal behaviour, computational neuroanatomy, neuroimaging, scientific software development],
-  [*Practices*], [Open-source development, reproducible research, community building],
+  [*Tools & Frameworks*], [Python, Bash, R, git/GitHub, Quarto, Sphinx],
+  [*Research domains*], [animal behaviour, computational neuroanatomy, neuroimaging],
+  [*Practices*], [open-source software development, community building],
   [*Languages*], [Greek (native), Georgian (native), English (fluent), German (advanced), Russian (intermediate)],
 )
 ```
