@@ -59,7 +59,7 @@ format:
 #v(1em)
 ```
 
-## Current Position
+## Experience
 
 ```{=typst}
 #entry(
@@ -74,8 +74,6 @@ format:
 - Core contributor to [BrainGlobe](https://brainglobe.info/), including building brain atlases for emerging model organisms
 - Promoting open-source adoption through talks, training workshops and open resources, including the [Animals in Motion](https://animals-in-motion.neuroinformatics.dev) handbook
 - Co-designed [NeuroBlueprint](https://neuroblueprint.neuroinformatics.dev), a lightweight data specification for systems neuroscience
-
-## Research Experience
 
 ```{=typst}
 #entry(
