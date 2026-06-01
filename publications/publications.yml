@@ -24,7 +24,7 @@
   subtitle: Imaging Neuroscience
   date: '2024-01-01'
   author: Michael Ortiz-Rios, Nikoloz Sirmpilatze et al.
-  description: '21'
+  description: '22'
 - path: https://doi.org/10.1016/j.neuroimage.2020.117519
   title: A collaborative resource platform for non-human primate neuroimaging
   subtitle: NeuroImage
@@ -63,7 +63,7 @@
   subtitle: Nature Neuroscience
   date: '2023-03-27'
   author: Joanes Grandjean et al.
-  description: '119'
+  description: '124'
 - path: https://doi.org/10.1016/j.neuron.2021.10.015
   title: 'Toward next-generation primate neuroscience: A collaboration-based strategic
     plan for integrative neuroimaging'
@@ -90,4 +90,11 @@
   subtitle: Current Biology
   date: '2026-04-01'
   author: Nikoloz Sirmpilatze, Alessandro Felder, Dinora Abdulazhanova et al.
+  description: '0'
+- path: https://doi.org/10.5281/zenodo.19945701
+  title: Mapping the state of neuroscientific software - a vision for collaboration
+    beyond single institutes or labs
+  subtitle: Zenodo
+  date: '2026-05-01'
+  author: Alessandro Felder et al.
   description: '0'
