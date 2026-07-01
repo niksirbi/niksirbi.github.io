@@ -30,7 +30,7 @@
   subtitle: NeuroImage
   date: '2020-11-20'
   author: Adam Messinger, Nikoloz Sirmpilatze et al.
-  description: '55'
+  description: '57'
 - path: https://doi.org/10.1101/2024.03.06.583699
   title: 'NeuralPlayground: A Standardised Environment for Evaluating Models of Hippocampus
     and Entorhinal Cortex'
@@ -63,7 +63,7 @@
   subtitle: Nature Neuroscience
   date: '2023-03-27'
   author: Joanes Grandjean et al.
-  description: '124'
+  description: '127'
 - path: https://doi.org/10.1016/j.neuron.2021.10.015
   title: 'Toward next-generation primate neuroscience: A collaboration-based strategic
     plan for integrative neuroimaging'
@@ -76,7 +76,7 @@
   subtitle: Neuron
   date: '2021-04-30'
   author: "R\xE9mi Gau et al."
-  description: '52'
+  description: '53'
 - path: https://doi.org/10.1162/imag.a.157
   title: Activation mapping in multi-center retrospective rat sensory-evoked functional
     MRI datasets using a unified pipeline
@@ -97,4 +97,10 @@
   subtitle: Zenodo
   date: '2026-05-01'
   author: Alessandro Felder et al.
+  description: '0'
+- path: https://doi.org/10.21105/joss.09642
+  title: 'datashuttle: automated data management for experimental neuroscience'
+  subtitle: The Journal of Open Source Software
+  date: '2026-06-16'
+  author: Joseph J. Ziminski, Nikoloz Sirmpilatze et al.
   description: '0'
