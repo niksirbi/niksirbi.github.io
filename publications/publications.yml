@@ -63,7 +63,7 @@
   subtitle: Nature Neuroscience
   date: '2023-03-27'
   author: Joanes Grandjean et al.
-  description: '127'
+  description: '128'
 - path: https://doi.org/10.1016/j.neuron.2021.10.015
   title: 'Toward next-generation primate neuroscience: A collaboration-based strategic
     plan for integrative neuroimaging'
@@ -90,7 +90,7 @@
   subtitle: Current Biology
   date: '2026-04-01'
   author: Nikoloz Sirmpilatze, Alessandro Felder, Dinora Abdulazhanova et al.
-  description: '0'
+  description: '1'
 - path: https://doi.org/10.5281/zenodo.19945701
   title: Mapping the state of neuroscientific software - a vision for collaboration
     beyond single institutes or labs
@@ -104,3 +104,9 @@
   date: '2026-06-16'
   author: Joseph J. Ziminski, Nikoloz Sirmpilatze et al.
   description: '0'
+- path: https://doi.org/10.31234/osf.io/rytjq
+  title: 'Brainhack: developing a culture of open, inclusive, community-driven neuroscience'
+  subtitle: OSF Preprints
+  date: '2021-02-12'
+  author: "R\xE9mi Gau et al."
+  description: '6'
