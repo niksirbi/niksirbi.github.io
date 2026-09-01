@@ -24,7 +24,7 @@
   subtitle: Imaging Neuroscience
   date: '2024-01-01'
   author: Michael Ortiz-Rios, Nikoloz Sirmpilatze et al.
-  description: '22'
+  description: '23'
 - path: https://doi.org/10.1016/j.neuroimage.2020.117519
   title: A collaborative resource platform for non-human primate neuroimaging
   subtitle: NeuroImage
@@ -57,7 +57,7 @@
   subtitle: Neuron
   date: '2020-02-01'
   author: Michael P. Milham et al.
-  description: '124'
+  description: '126'
 - path: https://doi.org/10.1038/s41593-023-01286-8
   title: A consensus protocol for functional connectivity analysis in the rat brain
   subtitle: Nature Neuroscience
@@ -76,7 +76,7 @@
   subtitle: Neuron
   date: '2021-04-30'
   author: "R\xE9mi Gau et al."
-  description: '53'
+  description: '54'
 - path: https://doi.org/10.1162/imag.a.157
   title: Activation mapping in multi-center retrospective rat sensory-evoked functional
     MRI datasets using a unified pipeline
