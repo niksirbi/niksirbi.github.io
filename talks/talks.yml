@@ -8,8 +8,8 @@
 - path: https://www.youtube.com/watch?v=JM3HFCjn5ss
   date: 2024-10-07
   title: "Kickstart a community of practice for open-source tools in animal behaviour"
-  subtitle: Software Sustainability Institute (SSI) Fellowship Programme 2025 Screencast
-  description: "My plans for the SSI Fellowship Programme."
+  subtitle: Institute for Research Software (formerly SSI) Fellowship Programme 2025 Screencast
+  description: "My plans for the Fellowship Programme."
   image: ../static/img/ssi.png
   categories: [Video]
 - path: https://www.youtube.com/watch?v=GXBQsqqZZTg
@@ -23,7 +23,7 @@
   date: 2025-07-21
   title: "Meet the 2025 SSI Fellows."
   subtitle: "Code for Thought podcast."
-  description: "An interview with three of the 2025 Software Sustainability Institute (SSI) Fellows, including myself."
+  description: "An interview with three of the 2025 Institute for Research Software (formerly SSI) Fellows, including myself."
   image: ../static/img/code-for-thought.png
   categories: [Podcast]
 - path: https://neuroinformatics.dev/slides-movement-cbias2025/#/title-slide

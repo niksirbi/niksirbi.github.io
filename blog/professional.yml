@@ -38,7 +38,7 @@
   date: 2026-01-22
   image: ../static/img/animals-in-motion.png
   title: "Animals in Motion: empowering behavioural researchers with open-source tools"
-  description: "An account of the first Animals in Motion workshop in London — an event I organised as part of my SSI Fellowship."
+  description: "An account of the first Animals in Motion workshop in London — an event I organised as part of my Fellowship."
   categories: [software.ac.uk]
 - path: https://neuroinformatics.dev/blog/trusted-by-design_intro.html
   author: Niko Sirmpilatze
