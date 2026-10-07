@@ -81,7 +81,7 @@ def extract_author_info(authorships: List[Dict]) -> Dict:
 
     for idx, authorship in enumerate(authorships):
         author_names.append(authorship["author"]["display_name"])
-        if authorship["author"]["id"].endswith(AUTHOR_ID):
+        if (authorship["author"]["id"] or "").endswith(AUTHOR_ID):
             author_info["my_position"] = idx
             author_info["me_first_author"] = authorship["author_position"] == "first"
             author_info["me_corresponding"] = authorship["is_corresponding"]
