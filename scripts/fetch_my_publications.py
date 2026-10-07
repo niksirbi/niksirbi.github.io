@@ -199,6 +199,9 @@ def process_pubs(pubs: List[Dict]) -> List[Dict]:
         if pub_id in EXCLUDE_PUB_IDS:
             print(f"Excluding publication {pub['id']} as per exclusion list.")
             continue
+        if "10.5281/zenodo" in (pub.get("doi") or ""):
+            print(f"Excluding Zenodo record {pub['id']}.")
+            continue
         else:
             print(f"Processing {pub['id']}...")
 
