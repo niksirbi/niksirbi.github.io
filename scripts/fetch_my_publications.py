@@ -81,7 +81,7 @@ def extract_author_info(authorships: List[Dict]) -> Dict:
 
     for idx, authorship in enumerate(authorships):
         author_names.append(authorship["author"]["display_name"])
-        if authorship["author"]["id"].endswith(AUTHOR_ID):
+        if (authorship["author"]["id"] or "").endswith(AUTHOR_ID):
             author_info["my_position"] = idx
             author_info["me_first_author"] = authorship["author_position"] == "first"
             author_info["me_corresponding"] = authorship["is_corresponding"]
@@ -198,6 +198,9 @@ def process_pubs(pubs: List[Dict]) -> List[Dict]:
         pub_id = pub["id"].split("/")[-1]
         if pub_id in EXCLUDE_PUB_IDS:
             print(f"Excluding publication {pub['id']} as per exclusion list.")
+            continue
+        if "10.5281/zenodo" in (pub.get("doi") or ""):
+            print(f"Excluding Zenodo record {pub['id']}.")
             continue
         else:
             print(f"Processing {pub['id']}...")
