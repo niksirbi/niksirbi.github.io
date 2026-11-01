@@ -11,26 +11,26 @@
   subtitle: eLife
   date: '2022-05-04'
   author: Nikoloz Sirmpilatze et al.
-  description: '35'
+  description: '28'
 - path: https://doi.org/10.1038/s41598-019-53144-y
   title: Temporal stability of fMRI in medetomidine-anesthetized rats
   subtitle: Scientific Reports
   date: '2019-11-13'
   author: Nikoloz Sirmpilatze et al.
-  description: '57'
+  description: '51'
 - path: https://doi.org/10.1162/imag_a_00230
   title: An anesthetic protocol for preserving functional network structure in the
     marmoset monkey brain
   subtitle: Imaging Neuroscience
   date: '2024-01-01'
   author: Michael Ortiz-Rios, Nikoloz Sirmpilatze et al.
-  description: '23'
+  description: '22'
 - path: https://doi.org/10.1016/j.neuroimage.2020.117519
   title: A collaborative resource platform for non-human primate neuroimaging
   subtitle: NeuroImage
   date: '2020-11-20'
   author: Adam Messinger, Nikoloz Sirmpilatze et al.
-  description: '57'
+  description: '52'
 - path: https://doi.org/10.1101/2024.03.06.583699
   title: 'NeuralPlayground: A Standardised Environment for Evaluating Models of Hippocampus
     and Entorhinal Cortex'
@@ -51,19 +51,19 @@
   subtitle: Cerebral Cortex
   date: '2020-09-02'
   author: Georg Hafner et al.
-  description: '8'
+  description: '7'
 - path: https://doi.org/10.1016/j.neuron.2019.12.023
   title: Accelerating the Evolution of Nonhuman Primate Neuroimaging
   subtitle: Neuron
   date: '2020-02-01'
   author: Michael P. Milham et al.
-  description: '127'
+  description: '105'
 - path: https://doi.org/10.1038/s41593-023-01286-8
   title: A consensus protocol for functional connectivity analysis in the rat brain
   subtitle: Nature Neuroscience
   date: '2023-03-27'
   author: Joanes Grandjean et al.
-  description: '129'
+  description: '120'
 - path: https://doi.org/10.1016/j.neuron.2021.10.015
   title: 'Toward next-generation primate neuroscience: A collaboration-based strategic
     plan for integrative neuroimaging'
@@ -76,7 +76,7 @@
   subtitle: Neuron
   date: '2021-04-30'
   author: "R\xE9mi Gau et al."
-  description: '54'
+  description: '50'
 - path: https://doi.org/10.1162/imag.a.157
   title: Activation mapping in multi-center retrospective rat sensory-evoked functional
     MRI datasets using a unified pipeline
@@ -90,10 +90,17 @@
   subtitle: Current Biology
   date: '2026-04-01'
   author: Nikoloz Sirmpilatze, Alessandro Felder, Dinora Abdulazhanova et al.
-  description: '1'
+  description: '2'
 - path: https://doi.org/10.21105/joss.09642
   title: 'datashuttle: automated data management for experimental neuroscience'
   subtitle: The Journal of Open Source Software
   date: '2026-06-16'
   author: Joseph J. Ziminski, Nikoloz Sirmpilatze et al.
+  description: '0'
+- path: https://doi.org/10.64898/2026.10.04.756554
+  title: "Absence of the Earth\u2019s magnetic field activates stress-related brain\
+    \ circuits in a mammal"
+  subtitle: bioRxiv
+  date: '2026-10-11'
+  author: Li Zhang et al.
   description: '0'
